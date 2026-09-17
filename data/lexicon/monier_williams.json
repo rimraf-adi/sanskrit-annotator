@@ -1,0 +1,238 @@
+{
+  "मुक्ति": {
+    "lemma": "मुक्ति",
+    "iast": "mukti",
+    "pos": "noun",
+    "gender": "f",
+    "root": "मुच्",
+    "meaning": "Release, liberation, final emancipation from mundane existence, delivery from pain or rebirth",
+    "source": "Monier-Williams (p. 821)"
+  },
+  "इच्छसि": {
+    "lemma": "इष्",
+    "iast": "iṣ",
+    "pos": "verb",
+    "gana": "6 (तुदादि)",
+    "pada": "परस्मैपद",
+    "meaning": "To seek, wish, desire, long for; to ask, expect",
+    "source": "Monier-Williams (p. 169)"
+  },
+  "तात": {
+    "lemma": "तात",
+    "iast": "tāta",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "A father; also used as a term of affection for a son, pupil, or venerable person ('dear one')",
+    "source": "Monier-Williams (p. 441)"
+  },
+  "विषय": {
+    "lemma": "विषय",
+    "iast": "viṣaya",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "Sphere, realm; an object of the senses (sound, touch, color, taste, smell); worldly pleasures",
+    "source": "Monier-Williams (p. 997)"
+  },
+  "विष": {
+    "lemma": "विष",
+    "iast": "viṣa",
+    "pos": "noun",
+    "gender": "n",
+    "meaning": "Poison, venom, bane; any deadly substance",
+    "source": "Monier-Williams (p. 995)"
+  },
+  "त्यज": {
+    "lemma": "त्यज्",
+    "iast": "tyaj",
+    "pos": "verb",
+    "gana": "1 (भ्वादि)",
+    "pada": "परस्मैपद",
+    "meaning": "To leave, abandon, quit, renounce, surrender, cast away",
+    "source": "Monier-Williams (p. 456)"
+  },
+  "क्षमा": {
+    "lemma": "क्षमा",
+    "iast": "kṣamā",
+    "pos": "noun",
+    "gender": "f",
+    "root": "क्षम्",
+    "meaning": "Patience, forbearance, forgiveness, endurance",
+    "source": "Monier-Williams (p. 326)"
+  },
+  "आर्जव": {
+    "lemma": "आर्जव",
+    "iast": "ārjava",
+    "pos": "noun",
+    "gender": "n",
+    "root": "ऋजु",
+    "meaning": "Straightforwardness, honesty, rectitude, sincerity",
+    "source": "Monier-Williams (p. 151)"
+  },
+  "दया": {
+    "lemma": "दया",
+    "iast": "dayā",
+    "pos": "noun",
+    "gender": "f",
+    "root": "दय्",
+    "meaning": "Sympathy, compassion, mercy, tenderness towards all beings",
+    "source": "Monier-Williams (p. 469)"
+  },
+  "तोष": {
+    "lemma": "तोष",
+    "iast": "toṣa",
+    "pos": "noun",
+    "gender": "m",
+    "root": "तुष्",
+    "meaning": "Satisfaction, contentment, pleasure, joy",
+    "source": "Monier-Williams (p. 456)"
+  },
+  "सत्य": {
+    "lemma": "सत्य",
+    "iast": "satya",
+    "pos": "noun/adj",
+    "gender": "n",
+    "meaning": "Truth, reality, veracity; truthfulness, genuine existence",
+    "source": "Monier-Williams (p. 1135)"
+  },
+  "पीयूष": {
+    "lemma": "पीयूष",
+    "iast": "pīyūṣa",
+    "pos": "noun",
+    "gender": "n",
+    "meaning": "Nectar, amrita, the drink of the gods conferring immortality",
+    "source": "Monier-Williams (p. 630)"
+  },
+  "भज": {
+    "lemma": "भज्",
+    "iast": "bhaj",
+    "pos": "verb",
+    "gana": "1 (भ्वादि)",
+    "pada": "उभयपद",
+    "meaning": "To partake of, enjoy, cultivate, pursue, worship, adore, resort to",
+    "source": "Monier-Williams (p. 743)"
+  },
+  "पृथ्वी": {
+    "lemma": "पृथ्वी",
+    "iast": "pṛthvī",
+    "pos": "noun",
+    "gender": "f",
+    "meaning": "The earth, terrestrial element, broad one",
+    "source": "Monier-Williams (p. 646)"
+  },
+  "जल": {
+    "lemma": "जल",
+    "iast": "jala",
+    "pos": "noun",
+    "gender": "n",
+    "meaning": "Water, aquatic element",
+    "source": "Monier-Williams (p. 415)"
+  },
+  "अग्नि": {
+    "lemma": "अग्नि",
+    "iast": "agni",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "Fire, the sacrificial flame, heat, light, the god Agni",
+    "source": "Monier-Williams (p. 5)"
+  },
+  "वायु": {
+    "lemma": "वायु",
+    "iast": "vāyu",
+    "pos": "noun",
+    "gender": "m",
+    "root": "वा",
+    "meaning": "Wind, air, breath, the vital life air (prana)",
+    "source": "Monier-Williams (p. 942)"
+  },
+  "द्यौ": {
+    "lemma": "दिव् / द्यो",
+    "iast": "dyau / div",
+    "pos": "noun",
+    "gender": "f",
+    "meaning": "Heaven, sky, ether, celestial space",
+    "source": "Monier-Williams (p. 500)"
+  },
+  "साक्षी": {
+    "lemma": "साक्षिन्",
+    "iast": "sākṣin",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "Eyewitness, observer, the uninvolved observing consciousness (Atman)",
+    "source": "Monier-Williams (p. 1200)"
+  },
+  "आत्मा": {
+    "lemma": "आत्मन्",
+    "iast": "ātman",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "The Self, soul, ultimate principle of pure consciousness",
+    "source": "Monier-Williams (p. 135)"
+  },
+  "चिद्रूप": {
+    "lemma": "चिद्रूप",
+    "iast": "cidrūpa",
+    "pos": "adj/noun",
+    "gender": "n",
+    "meaning": "Consisting of pure consciousness, having the nature of Awareness (cit + rūpa)",
+    "source": "Monier-Williams (p. 396)"
+  },
+  "विद्धि": {
+    "lemma": "विद्",
+    "iast": "vid",
+    "pos": "verb",
+    "gana": "2 (अदादि)",
+    "pada": "परस्मैपद",
+    "meaning": "To know, understand, perceive, realize, learn",
+    "source": "Monier-Williams (p. 963)"
+  },
+  "देह": {
+    "lemma": "देह",
+    "iast": "deha",
+    "pos": "noun",
+    "gender": "m/n",
+    "meaning": "The body, physical frame, embodiment",
+    "source": "Monier-Williams (p. 496)"
+  },
+  "चिति": {
+    "lemma": "चिति",
+    "iast": "citi",
+    "pos": "noun",
+    "gender": "f",
+    "root": "चित्",
+    "meaning": "Consciousness, pure awareness, the cognitive power",
+    "source": "Monier-Williams (p. 396)"
+  },
+  "सुखी": {
+    "lemma": "सुखिन्",
+    "iast": "sukhin",
+    "pos": "adj/noun",
+    "gender": "m",
+    "meaning": "Happy, blissful, joyful, at ease, peaceful",
+    "source": "Monier-Williams (p. 1221)"
+  },
+  "शान्त": {
+    "lemma": "शान्त",
+    "iast": "śānta",
+    "pos": "adj",
+    "root": "शम्",
+    "meaning": "Pacified, tranquil, serene, undisturbed, peaceful",
+    "source": "Monier-Williams (p. 1064)"
+  },
+  "ईळे": {
+    "lemma": "ईड्",
+    "iast": "īḍ",
+    "pos": "verb",
+    "gana": "2 (अदादि)",
+    "pada": "आत्मनेपद",
+    "meaning": "To praise, celebrate, laud, magnify, invoke with adoration (Vedic: ईळे, Classical: ईडे / ईले)",
+    "source": "Monier-Williams (p. 170)"
+  },
+  "पुरोहित": {
+    "lemma": "पुरोहित",
+    "iast": "purohita",
+    "pos": "noun",
+    "gender": "m",
+    "meaning": "Placed in front; foremost priest, spiritual director of sacrifice",
+    "source": "Monier-Williams (p. 635)"
+  }
+}

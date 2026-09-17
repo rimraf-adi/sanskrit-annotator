@@ -1,0 +1,605 @@
+{
+  "मुक्तिमिच्छसि": {
+    "token": "मुक्तिमिच्छसि",
+    "sandhiVigraha": "मुक्तिम् + इच्छसि",
+    "root": "इष् (तुदादि)",
+    "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
+    "meaning": "If you desire liberation",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "चेत्तात": {
+    "token": "चेत्तात",
+    "sandhiVigraha": "चेत् + तात",
+    "root": "-",
+    "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
+    "meaning": "If, O dear one",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "विषयान्": {
+    "token": "विषयान्",
+    "sandhiVigraha": "विषयान्",
+    "root": "-",
+    "grammar": "विषय (द्वितीया बहु. पुं.)",
+    "meaning": "Sense objects and pleasures",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "विषवत्त्यज": {
+    "token": "विषवत्त्यज",
+    "sandhiVigraha": "विषवत् + त्यज",
+    "root": "त्यज् (भ्वादि)",
+    "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
+    "meaning": "Renounce like poison",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "क्षमार्जवदयातोषसत्यं": {
+    "token": "क्षमार्जवदयातोषसत्यं",
+    "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्",
+    "root": "-",
+    "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
+    "meaning": "Forgiveness, sincerity, compassion, contentment and truth",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "पीयूषवद्": {
+    "token": "पीयूषवद्",
+    "sandhiVigraha": "पीयूषवत्",
+    "root": "-",
+    "grammar": "तद्धित अव्यय (पीयूषम् इव)",
+    "meaning": "Like divine nectar",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "भज": {
+    "token": "भज",
+    "sandhiVigraha": "भज",
+    "root": "भज् (भ्वादि)",
+    "grammar": "भज् (लोट् म.पु. एक.)",
+    "meaning": "Embrace, pursue, cultivate!",
+    "verse": "1-2",
+    "source": "Ashtavakra Gita 1.1-2"
+  },
+  "न": {
+    "token": "न",
+    "sandhiVigraha": "न",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "Nor",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "पृथ्वी": {
+    "token": "पृथ्वी",
+    "sandhiVigraha": "पृथ्वी",
+    "root": "-",
+    "grammar": "प्रथमा एक. स्त्री.",
+    "meaning": "Earth",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "जलं": {
+    "token": "जलं",
+    "sandhiVigraha": "जलम्",
+    "root": "-",
+    "grammar": "प्रथमा एक. नपुं.",
+    "meaning": "Water",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "नाग्निर्न": {
+    "token": "नाग्निर्न",
+    "sandhiVigraha": "न + अग्निः + न",
+    "root": "-",
+    "grammar": "दीर्घ + विसर्ग-रेफ",
+    "meaning": "Nor fire",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "वायुर्द्यौर्न": {
+    "token": "वायुर्द्यौर्न",
+    "sandhiVigraha": "वायुः + द्यौः + न",
+    "root": "-",
+    "grammar": "विसर्ग-रेफ",
+    "meaning": "Nor air nor sky/space",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "वा": {
+    "token": "वा",
+    "sandhiVigraha": "वा",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "Indeed / or",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "भवान्": {
+    "token": "भवान्",
+    "sandhiVigraha": "भवान्",
+    "root": "-",
+    "grammar": "भवत् (प्रथमा एक. पुं.)",
+    "meaning": "Are you",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "एषां": {
+    "token": "एषां",
+    "sandhiVigraha": "एषाम्",
+    "root": "-",
+    "grammar": "एतद् (षष्ठी बहु.)",
+    "meaning": "Of these elements",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "साक्षिणमात्मानं": {
+    "token": "साक्षिणमात्मानं",
+    "sandhiVigraha": "साक्षिणम् + आत्मानम्",
+    "root": "साक्षिन् / आत्मन्",
+    "grammar": "द्वितीया एक. पुं.",
+    "meaning": "The Witness, the true Self",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "चिद्रूपं": {
+    "token": "चिद्रूपं",
+    "sandhiVigraha": "चित् + रूपम्",
+    "root": "चित्",
+    "grammar": "द्वितीया एक. नपुं.",
+    "meaning": "Pure Consciousness",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "विद्धि": {
+    "token": "विद्धि",
+    "sandhiVigraha": "विद्धि",
+    "root": "विद् (अदादि)",
+    "grammar": "लोट् म.पु. एक.",
+    "meaning": "Know, realize!",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "मुक्तये": {
+    "token": "मुक्तये",
+    "sandhiVigraha": "मुक्तये",
+    "root": "मुच्",
+    "grammar": "मुक्ति (चतुर्थी एक. स्त्री.)",
+    "meaning": "For liberation",
+    "verse": "1-3",
+    "source": "Ashtavakra Gita 1.1-3"
+  },
+  "यदि": {
+    "token": "यदि",
+    "sandhiVigraha": "यदि",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "If",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "देहं": {
+    "token": "देहं",
+    "sandhiVigraha": "देहम्",
+    "root": "-",
+    "grammar": "देह (द्वितीया एक. पुं.)",
+    "meaning": "The body",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "पृथक्": {
+    "token": "पृथक्",
+    "sandhiVigraha": "पृथक्",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "Distinctly, separate",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "कृत्य": {
+    "token": "कृत्य",
+    "sandhiVigraha": "कृत्य",
+    "root": "कृ (तनादि)",
+    "grammar": "ल्यप् प्रत्ययान्त",
+    "meaning": "Having made",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "चिति": {
+    "token": "चिति",
+    "sandhiVigraha": "चिति",
+    "root": "चित्",
+    "grammar": "चिति (सप्तमी एक. स्त्री.)",
+    "meaning": "In Pure Consciousness",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "विश्राम्य": {
+    "token": "विश्राम्य",
+    "sandhiVigraha": "विश्राम्य",
+    "root": "वि-श्रम्",
+    "grammar": "ल्यप् प्रत्ययान्त",
+    "meaning": "Reposing at rest",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "तिष्ठसि": {
+    "token": "तिष्ठसि",
+    "sandhiVigraha": "तिष्ठसि",
+    "root": "स्था (भ्वादि)",
+    "grammar": "लट् म.पु. एक.",
+    "meaning": "You abide",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "अधुनैव": {
+    "token": "अधुनैव",
+    "sandhiVigraha": "अधुना + एव",
+    "root": "-",
+    "grammar": "वृद्धि स्वर-सन्धि",
+    "meaning": "Right now, this very moment",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "सुखी": {
+    "token": "सुखी",
+    "sandhiVigraha": "सुखी",
+    "root": "-",
+    "grammar": "सुखिन् (प्रथमा एक.)",
+    "meaning": "Joyful",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "शान्तो": {
+    "token": "शान्तो",
+    "sandhiVigraha": "शान्तः",
+    "root": "शम्",
+    "grammar": "प्रथमा एक. (उत्व सन्धि)",
+    "meaning": "Peaceful, serene",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "बन्धमुक्तो": {
+    "token": "बन्धमुक्तो",
+    "sandhiVigraha": "बन्धमुक्तः",
+    "root": "मुच्",
+    "grammar": "तत्पुरुष समास (उत्व सन्धि)",
+    "meaning": "Freed from bondage",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "भविष्यसि": {
+    "token": "भविष्यसि",
+    "sandhiVigraha": "भविष्यसि",
+    "root": "भू (भ्वादि)",
+    "grammar": "लृट् म.पु. एक.",
+    "meaning": "You will become",
+    "verse": "1-4",
+    "source": "Ashtavakra Gita 1.1-4"
+  },
+  "त्वं": {
+    "token": "त्वं",
+    "sandhiVigraha": "त्वम्",
+    "root": "-",
+    "grammar": "युष्मद् (प्रथमा एक.)",
+    "meaning": "You",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "विप्रादिको": {
+    "token": "विप्रादिको",
+    "sandhiVigraha": "विप्रादिकः",
+    "root": "-",
+    "grammar": "प्रथमा एक. पुं. (उत्व सन्धि)",
+    "meaning": "Brahmana and other castes",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "वर्णो": {
+    "token": "वर्णो",
+    "sandhiVigraha": "वर्णः",
+    "root": "-",
+    "grammar": "वर्ण (प्रथमा एक.)",
+    "meaning": "Social caste",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "नाश्रमी": {
+    "token": "नाश्रमी",
+    "sandhiVigraha": "न + आश्रमी",
+    "root": "-",
+    "grammar": "दीर्घ सन्धि",
+    "meaning": "Nor belong to any stage of life",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "नाक्षगोचरः": {
+    "token": "नाक्षगोचरः",
+    "sandhiVigraha": "न + अक्षगोचरः",
+    "root": "-",
+    "grammar": "दीर्घ सन्धि",
+    "meaning": "Nor perceptible to sense organs",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "असङ्गोऽसि": {
+    "token": "असङ्गोऽसि",
+    "sandhiVigraha": "असङ्गः + असि",
+    "root": "अस्",
+    "grammar": "उत्व + पूर्वरूप सन्धि",
+    "meaning": "You are unattached",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "निराकारो": {
+    "token": "निराकारो",
+    "sandhiVigraha": "निराकारः",
+    "root": "-",
+    "grammar": "प्रथमा एक. (उत्व सन्धि)",
+    "meaning": "Formless",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "विश्वसाक्षी": {
+    "token": "विश्वसाक्षी",
+    "sandhiVigraha": "विश्वसाक्षी",
+    "root": "साक्षिन्",
+    "grammar": "प्रथमा एक. पुं.",
+    "meaning": "Witness of all the cosmos",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "भव": {
+    "token": "भव",
+    "sandhiVigraha": "भव",
+    "root": "भू (भ्वादि)",
+    "grammar": "लोट् म.पु. एक.",
+    "meaning": "Be!",
+    "verse": "1-5",
+    "source": "Ashtavakra Gita 1.1-5"
+  },
+  "धर्माधर्मौ": {
+    "token": "धर्माधर्मौ",
+    "sandhiVigraha": "धर्मः + अधर्मः",
+    "root": "-",
+    "grammar": "द्वन्द्व समास (प्रथमा द्विवचन)",
+    "meaning": "Righteousness and unrighteousness",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "सुखं": {
+    "token": "सुखं",
+    "sandhiVigraha": "सुखम्",
+    "root": "-",
+    "grammar": "क्रियाविशेषण",
+    "meaning": "Happily, at peace",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "दुःखं": {
+    "token": "दुःखं",
+    "sandhiVigraha": "दुःखम्",
+    "root": "-",
+    "grammar": "प्रथमा एक. नपुं.",
+    "meaning": "Pain",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "मानसानि": {
+    "token": "मानसानि",
+    "sandhiVigraha": "मानसानि",
+    "root": "-",
+    "grammar": "प्रथमा बहु. नपुं.",
+    "meaning": "Attributes of the mind only",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "ते": {
+    "token": "ते",
+    "sandhiVigraha": "ते",
+    "root": "-",
+    "grammar": "युष्मद् (षष्ठी)",
+    "meaning": "Your",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "विभो": {
+    "token": "विभो",
+    "sandhiVigraha": "विभो",
+    "root": "विभु",
+    "grammar": "सम्बोधन एक.",
+    "meaning": "O All-Pervading One!",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "कर्तासि": {
+    "token": "कर्तासि",
+    "sandhiVigraha": "कर्ता + असि",
+    "root": "कृ / अस्",
+    "grammar": "सवर्णदीर्घ सन्धि",
+    "meaning": "Are you the doer",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "भोक्तासि": {
+    "token": "भोक्तासि",
+    "sandhiVigraha": "भोक्ता + असि",
+    "root": "भुज् / अस्",
+    "grammar": "सवर्णदीर्घ सन्धि",
+    "meaning": "The enjoyer / experiencer",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "मुक्त": {
+    "token": "मुक्त",
+    "sandhiVigraha": "मुक्तः",
+    "root": "मुच्",
+    "grammar": "विसर्ग-लोप सन्धि",
+    "meaning": "Ever-free",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "एवासि": {
+    "token": "एवासि",
+    "sandhiVigraha": "एव + असि",
+    "root": "अस्",
+    "grammar": "दीर्घ सन्धि",
+    "meaning": "Truly you are",
+    "verse": "1-6",
+    "source": "Ashtavakra Gita 1.1-6"
+  },
+  "सर्वदा": {
+    "token": "सर्वदा",
+    "sandhiVigraha": "सर्वदा",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "Always",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "एको": {
+    "token": "एको",
+    "sandhiVigraha": "एकः",
+    "root": "-",
+    "grammar": "उत्व विसर्ग सन्धि",
+    "meaning": "The One",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "द्रष्टासि": {
+    "token": "द्रष्टासि",
+    "sandhiVigraha": "द्रष्टा + असि",
+    "root": "दृश् / अस्",
+    "grammar": "सवर्णदीर्घ सन्धि",
+    "meaning": "Witness/Seer are you",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "सर्वस्य": {
+    "token": "सर्वस्य",
+    "sandhiVigraha": "सर्वस्य",
+    "root": "-",
+    "grammar": "सर्व (षष्ठी एक.)",
+    "meaning": "Of everything",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "मुक्तप्रायोऽसि": {
+    "token": "मुक्तप्रायोऽसि",
+    "sandhiVigraha": "मुक्तप्रायः + असि",
+    "root": "अस्",
+    "grammar": "उत्व + पूर्वरूप सन्धि",
+    "meaning": "Already virtually liberated",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "अयमेव": {
+    "token": "अयमेव",
+    "sandhiVigraha": "अयम् + एव",
+    "root": "-",
+    "grammar": "संयोग",
+    "meaning": "This indeed",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "हि": {
+    "token": "हि",
+    "sandhiVigraha": "हि",
+    "root": "-",
+    "grammar": "अव्यय",
+    "meaning": "Verily",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "बन्धो": {
+    "token": "बन्धो",
+    "sandhiVigraha": "बन्धः",
+    "root": "बन्ध्",
+    "grammar": "उत्व विसर्ग सन्धि",
+    "meaning": "Only bondage",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "द्रष्टारं": {
+    "token": "द्रष्टारं",
+    "sandhiVigraha": "द्रष्टारम्",
+    "root": "दृश्",
+    "grammar": "द्वितीया एक.",
+    "meaning": "That the Seer",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "पश्यसीतरम्": {
+    "token": "पश्यसीतरम्",
+    "sandhiVigraha": "पश्यसि + इतरम्",
+    "root": "दृश्",
+    "grammar": "सवर्णदीर्घ सन्धि",
+    "meaning": "You perceive as another / object",
+    "verse": "1-7",
+    "source": "Ashtavakra Gita 1.1-7"
+  },
+  "अहं": {
+    "token": "अहं",
+    "sandhiVigraha": "अहम्",
+    "root": "-",
+    "grammar": "अस्मद् (प्रथमा एक.)",
+    "meaning": "I",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "कर्तेत्यहंमानमहाकृष्णाहिदंशितः": {
+    "token": "कर्तेत्यहंमानमहाकृष्णाहिदंशितः",
+    "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः",
+    "root": "कृ / दंश्",
+    "grammar": "समास + सन्धि",
+    "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "नाहं": {
+    "token": "नाहं",
+    "sandhiVigraha": "न + अहम्",
+    "root": "-",
+    "grammar": "दीर्घ स्वर-सन्धि",
+    "meaning": "I am not",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "कर्तेति": {
+    "token": "कर्तेति",
+    "sandhiVigraha": "कर्ता + इति",
+    "root": "कृ",
+    "grammar": "गुण स्वर-सन्धि",
+    "meaning": "The doer",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "विश्वासामृतं": {
+    "token": "विश्वासामृतं",
+    "sandhiVigraha": "विश्वास + अमृतम्",
+    "root": "-",
+    "grammar": "दीर्घ सन्धि / रूपक समास",
+    "meaning": "The nectar of faith/conviction",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "पीत्वा": {
+    "token": "पीत्वा",
+    "sandhiVigraha": "पीत्वा",
+    "root": "पा (भ्वादि)",
+    "grammar": "क्त्वा प्रत्ययान्त",
+    "meaning": "Having drunk",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  },
+  "चर": {
+    "token": "चर",
+    "sandhiVigraha": "चर",
+    "root": "चर् (भ्वादि)",
+    "grammar": "लोट् म.पु. एक.",
+    "meaning": "Live and wander freely!",
+    "verse": "1-8",
+    "source": "Ashtavakra Gita 1.1-8"
+  }
+}

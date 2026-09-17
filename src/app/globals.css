@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg-parchment: #fcfbf7;
+    --bg-card: #ffffff;
+    --border-parchment: #e9e5d9;
+    --text-primary: #1e1b18;
+    --text-saffron: #b45309;
+    --accent-vedic: #9a3412;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f6f0;
+  color: #1a1613;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sanskrit-text {
+  font-family: "Noto Serif Devanagari", "Tiro Devanagari Sanskrit", "Kokila", "Mangal", "Siddhanta", serif;
+  letter-spacing: 0.02em;
+  line-height: 2.1;
+}
+
+.sanskrit-verse-card {
+  background: radial-gradient(circle at top left, #ffffff, #faf8f2);
+  border: 1px solid #e7e2d4;
+  box-shadow: 0 4px 20px -2px rgba(90, 70, 40, 0.06);
+}
+
+.hover-trigger {
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 1px 3px;
+  transition: all 0.12s ease-in-out;
+}
+
+.hover-trigger:hover {
+  background-color: #fef3c7;
+  color: #92400e;
+  box-shadow: 0 0 0 2px #fde68a;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cebf;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8ac97;
 }

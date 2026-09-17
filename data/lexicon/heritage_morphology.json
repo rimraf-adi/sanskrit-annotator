@@ -1,0 +1,1481 @@
+{
+  "मुक्तिमिच्छसि": {
+    "split": [
+      "मुक्तिम्",
+      "इच्छसि"
+    ],
+    "sandhiRules": [
+      "संयोग (व्यञ्जन + स्वर) : म् + इ = मि"
+    ],
+    "padas": [
+      {
+        "pada": "मुक्तिम्",
+        "lemma": "मुक्ति",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "root": "मुच्",
+        "meaning": "Liberation, freedom from rebirth"
+      },
+      {
+        "pada": "इच्छसि",
+        "lemma": "इष्",
+        "type": "tinganta",
+        "lakara": "लट् (वर्तमान)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "इष् (तुदादि)",
+        "meaning": "You desire, you seek"
+      }
+    ]
+  },
+  "चेत्तात": {
+    "split": [
+      "चेत्",
+      "तात"
+    ],
+    "sandhiRules": [
+      "संयोग : त् + ता = त्ता"
+    ],
+    "padas": [
+      {
+        "pada": "चेत्",
+        "lemma": "चेत्",
+        "type": "avyaya",
+        "meaning": "If, in case that"
+      },
+      {
+        "pada": "तात",
+        "lemma": "तात",
+        "type": "subanta",
+        "vibhakti": "सम्बोधन",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "O beloved one, dear disciple"
+      }
+    ]
+  },
+  "विषयान्": {
+    "split": [
+      "विषयान्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "विषयान्",
+        "lemma": "विषय",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "बहुवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "विषय",
+        "meaning": "Objects of the senses, sensual enjoyments"
+      }
+    ]
+  },
+  "विषवत्त्यज": {
+    "split": [
+      "विषवत्",
+      "त्यज"
+    ],
+    "sandhiRules": [
+      "तकार-द्वित्व सन्धि : त् + त्य = त्त्य"
+    ],
+    "padas": [
+      {
+        "pada": "विषवत्",
+        "lemma": "विष",
+        "type": "taddhita/avyaya",
+        "suffix": "वतिँ",
+        "meaning": "Like poison, as deadly venom"
+      },
+      {
+        "pada": "त्यज",
+        "lemma": "त्यज्",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "त्यज् (भ्वादि)",
+        "meaning": "Abandon, cast away, renounce!"
+      }
+    ]
+  },
+  "क्षमार्जवदयातोषसत्यं": {
+    "split": [
+      "क्षमा",
+      "आर्जव",
+      "दया",
+      "तोष",
+      "सत्यम्"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ स्वर-सन्धि : आ + आ = आ",
+      "समाहार द्वन्द्व समास"
+    ],
+    "padas": [
+      {
+        "pada": "क्षमा",
+        "lemma": "क्षमा",
+        "type": "subanta",
+        "meaning": "Forgiveness, patience"
+      },
+      {
+        "pada": "आर्जव",
+        "lemma": "आर्जव",
+        "type": "subanta",
+        "meaning": "Sincerity, straightforwardness"
+      },
+      {
+        "pada": "दया",
+        "lemma": "दया",
+        "type": "subanta",
+        "meaning": "Compassion, mercy"
+      },
+      {
+        "pada": "तोष",
+        "lemma": "तोष",
+        "type": "subanta",
+        "meaning": "Contentment, joy"
+      },
+      {
+        "pada": "सत्यम्",
+        "lemma": "सत्य",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Truth, genuine reality"
+      }
+    ]
+  },
+  "पीयूषवद्": {
+    "split": [
+      "पीयूषवत्"
+    ],
+    "sandhiRules": [
+      "जश्त्व सन्धि : त् -> द् (घोष व्यञ्जन परे)"
+    ],
+    "padas": [
+      {
+        "pada": "पीयूषवत्",
+        "lemma": "पीयूष",
+        "type": "taddhita/avyaya",
+        "suffix": "वतिँ",
+        "meaning": "Like immortal nectar, as ambrosia"
+      }
+    ]
+  },
+  "भज": {
+    "split": [
+      "भज"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "भज",
+        "lemma": "भज्",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "भज् (भ्वादि)",
+        "meaning": "Cultivate, worship, embrace!"
+      }
+    ]
+  },
+  "न": {
+    "split": [
+      "न"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not, neither, nor"
+      }
+    ]
+  },
+  "पृथ्वी": {
+    "split": [
+      "पृथ्वी"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "पृथ्वी",
+        "lemma": "पृथ्वी",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "meaning": "The Earth element"
+      }
+    ]
+  },
+  "जलं": {
+    "split": [
+      "जलम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "जलम्",
+        "lemma": "जल",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Water element"
+      }
+    ]
+  },
+  "नाग्निर्न": {
+    "split": [
+      "न",
+      "अग्निः",
+      "न"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : अ + अ = आ",
+      "विसर्ग-रेफ सन्धि : ः + न = र्न"
+    ],
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अग्निः",
+        "lemma": "अग्नि",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Fire element"
+      },
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Nor"
+      }
+    ]
+  },
+  "वायुर्द्यौर्न": {
+    "split": [
+      "वायुः",
+      "द्यौः",
+      "न"
+    ],
+    "sandhiRules": [
+      "विसर्ग-रेफ सन्धि : ः + द्य = र्द्य",
+      "विसर्ग-रेफ सन्धि : ः + न = र्न"
+    ],
+    "padas": [
+      {
+        "pada": "वायुः",
+        "lemma": "वायु",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Air element"
+      },
+      {
+        "pada": "द्यौः",
+        "lemma": "दिव्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "meaning": "Space/Ether/Sky"
+      },
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Nor"
+      }
+    ]
+  },
+  "वा": {
+    "split": [
+      "वा"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "वा",
+        "lemma": "वा",
+        "type": "avyaya",
+        "meaning": "Or, indeed"
+      }
+    ]
+  },
+  "भवान्": {
+    "split": [
+      "भवान्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "भवान्",
+        "lemma": "भवत्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "You, your self"
+      }
+    ]
+  },
+  "एषां": {
+    "split": [
+      "एषाम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "एषाम्",
+        "lemma": "एतद्",
+        "type": "subanta",
+        "vibhakti": "षष्ठी",
+        "vacana": "बहुवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Of all these five elements"
+      }
+    ]
+  },
+  "साक्षिणमात्मानं": {
+    "split": [
+      "साक्षिणम्",
+      "आत्मानम्"
+    ],
+    "sandhiRules": [
+      "संयोग : म् + आ = मा"
+    ],
+    "padas": [
+      {
+        "pada": "साक्षिणम्",
+        "lemma": "साक्षिन्",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "साक्षिन्",
+        "meaning": "The eternal Witness"
+      },
+      {
+        "pada": "आत्मानम्",
+        "lemma": "आत्मन्",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "आत्मन्",
+        "meaning": "The true Self (Atman)"
+      }
+    ]
+  },
+  "चिद्रूपं": {
+    "split": [
+      "चित्",
+      "रूपम्"
+    ],
+    "sandhiRules": [
+      "जश्त्व सन्धि : त् + र = द्र"
+    ],
+    "padas": [
+      {
+        "pada": "चिद्रूपम्",
+        "lemma": "चिद्रूप",
+        "type": "subanta/samasa",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Embodiment of Pure Consciousness"
+      }
+    ]
+  },
+  "विद्धि": {
+    "split": [
+      "विद्धि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "विद्धि",
+        "lemma": "विद्",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "विद् (अदादि)",
+        "meaning": "Know! Realize!"
+      }
+    ]
+  },
+  "मुक्तये": {
+    "split": [
+      "मुक्तये"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "मुक्तये",
+        "lemma": "मुक्ति",
+        "type": "subanta",
+        "vibhakti": "चतुर्थी",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "meaning": "For attaining liberation"
+      }
+    ]
+  },
+  "यदि": {
+    "split": [
+      "यदि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "यदि",
+        "lemma": "यदि",
+        "type": "avyaya",
+        "meaning": "If"
+      }
+    ]
+  },
+  "देहं": {
+    "split": [
+      "देहम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "देहम्",
+        "lemma": "देह",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "The physical body"
+      }
+    ]
+  },
+  "पृथक्": {
+    "split": [
+      "पृथक्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "पृथक्",
+        "lemma": "पृथक्",
+        "type": "avyaya",
+        "meaning": "Distinctly, separate"
+      }
+    ]
+  },
+  "कृत्य": {
+    "split": [
+      "कृत्य"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "कृत्य",
+        "lemma": "कृ",
+        "type": "krdanta",
+        "suffix": "ल्यप्",
+        "root": "कृ (तनादि)",
+        "meaning": "Having separated, making distinct"
+      }
+    ]
+  },
+  "चिति": {
+    "split": [
+      "चिति"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "चिति",
+        "lemma": "चिति",
+        "type": "subanta",
+        "vibhakti": "सप्तमी",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "root": "चित्",
+        "meaning": "In the Awareness / Pure Consciousness"
+      }
+    ]
+  },
+  "विश्राम्य": {
+    "split": [
+      "विश्राम्य"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "विश्राम्य",
+        "lemma": "वि-श्रम्",
+        "type": "krdanta",
+        "suffix": "ल्यप्",
+        "root": "श्रम् (भ्वादि)",
+        "meaning": "Having reposed, resting peacefully"
+      }
+    ]
+  },
+  "तिष्ठसि": {
+    "split": [
+      "तिष्ठसि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "तिष्ठसि",
+        "lemma": "स्था",
+        "type": "tinganta",
+        "lakara": "लट् (वर्तमान)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "स्था (भ्वादि)",
+        "meaning": "You remain, you abide"
+      }
+    ]
+  },
+  "अधुनैव": {
+    "split": [
+      "अधुना",
+      "एव"
+    ],
+    "sandhiRules": [
+      "वृद्धि स्वर-सन्धि : आ + ए = ऐ"
+    ],
+    "padas": [
+      {
+        "pada": "अधुना",
+        "lemma": "अधुना",
+        "type": "avyaya",
+        "meaning": "Right now, this instant"
+      },
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Indeed, verily"
+      }
+    ]
+  },
+  "सुखी": {
+    "split": [
+      "सुखी"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "सुखी",
+        "lemma": "सुखिन्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Joyful, blissful"
+      }
+    ]
+  },
+  "शान्तो": {
+    "split": [
+      "शान्तः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि : ः -> ओ (अघोष/घोष परे)"
+    ],
+    "padas": [
+      {
+        "pada": "शान्तः",
+        "lemma": "शान्त",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "शम्",
+        "meaning": "Tranquil, peaceful"
+      }
+    ]
+  },
+  "बन्धमुक्तो": {
+    "split": [
+      "बन्धमुक्तः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि : ः -> ओ"
+    ],
+    "padas": [
+      {
+        "pada": "बन्धमुक्तः",
+        "lemma": "बन्धमुक्त",
+        "type": "subanta/samasa",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "split": "बन्धात् मुक्तः (पञ्चमी तत्पुरुष)",
+        "meaning": "Freed from all bondage"
+      }
+    ]
+  },
+  "भविष्यसि": {
+    "split": [
+      "भविष्यसि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "भविष्यसि",
+        "lemma": "भू",
+        "type": "tinganta",
+        "lakara": "लृट् (भविष्यत्)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "भू (भ्वादि)",
+        "meaning": "You will become"
+      }
+    ]
+  },
+  "त्वं": {
+    "split": [
+      "त्वम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "त्वम्",
+        "lemma": "युष्मद्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "meaning": "You"
+      }
+    ]
+  },
+  "विप्रादिको": {
+    "split": [
+      "विप्रादिकः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि"
+    ],
+    "padas": [
+      {
+        "pada": "विप्रादिकः",
+        "lemma": "विप्रादिक",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Brahmana and the other castes"
+      }
+    ]
+  },
+  "वर्णो": {
+    "split": [
+      "वर्णः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि"
+    ],
+    "padas": [
+      {
+        "pada": "वर्णः",
+        "lemma": "वर्ण",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Social class/order"
+      }
+    ]
+  },
+  "नाश्रमी": {
+    "split": [
+      "न",
+      "आश्रमी"
+    ],
+    "sandhiRules": [
+      "दीर्घ स्वर-सन्धि : अ + आ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "आश्रमी",
+        "lemma": "आश्रमन्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Belonging to any life-stage (Ashrama)"
+      }
+    ]
+  },
+  "नाक्षगोचरः": {
+    "split": [
+      "न",
+      "अक्षगोचरः"
+    ],
+    "sandhiRules": [
+      "दीर्घ स्वर-सन्धि : अ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अक्षगोचरः",
+        "lemma": "अक्षगोचर",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Perceptible to sensory organs"
+      }
+    ]
+  },
+  "असङ्गोऽसि": {
+    "split": [
+      "असङ्गः",
+      "असि"
+    ],
+    "sandhiRules": [
+      "उत्व + पूर्वरूप सन्धि : ः -> ओ + ऽ"
+    ],
+    "padas": [
+      {
+        "pada": "असङ्गः",
+        "lemma": "असङ्ग",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Completely unattached, non-clinging"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट् (वर्तमान)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस् (अदादि)",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "निराकारो": {
+    "split": [
+      "निराकारः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि"
+    ],
+    "padas": [
+      {
+        "pada": "निराकारः",
+        "lemma": "निराकार",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Formless, without material shape"
+      }
+    ]
+  },
+  "विश्वसाक्षी": {
+    "split": [
+      "विश्वसाक्षी"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "विश्वसाक्षी",
+        "lemma": "विश्वसाक्षिन्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Witness of all the worlds"
+      }
+    ]
+  },
+  "भव": {
+    "split": [
+      "भव"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "भव",
+        "lemma": "भू",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "भू (भ्वादि)",
+        "meaning": "Be! Dwell!"
+      }
+    ]
+  },
+  "धर्माधर्मौ": {
+    "split": [
+      "धर्मः",
+      "अधर्मः"
+    ],
+    "sandhiRules": [
+      "द्वन्द्व समास : धर्मश्च अधर्मश्च = धर्माधर्मौ"
+    ],
+    "padas": [
+      {
+        "pada": "धर्माधर्मौ",
+        "lemma": "धर्माधर्म",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "द्विवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Virtue and vice, righteousness and unrighteousness"
+      }
+    ]
+  },
+  "सुखं": {
+    "split": [
+      "सुखम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "सुखम्",
+        "lemma": "सुख",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Pleasure, happiness"
+      }
+    ]
+  },
+  "दुःखं": {
+    "split": [
+      "दुःखम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "दुःखम्",
+        "lemma": "दुःख",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Pain, misery"
+      }
+    ]
+  },
+  "मानसानि": {
+    "split": [
+      "मानसानि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "मानसानि",
+        "lemma": "मानस",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "बहुवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Pertaining solely to the mental organ (manas)"
+      }
+    ]
+  },
+  "ते": {
+    "split": [
+      "ते"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "ते",
+        "lemma": "युष्मद्",
+        "type": "subanta",
+        "vibhakti": "षष्ठी/चतुर्थी",
+        "vacana": "एकवचन",
+        "meaning": "Of you / for you"
+      }
+    ]
+  },
+  "विभो": {
+    "split": [
+      "विभो"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "विभो",
+        "lemma": "विभु",
+        "type": "subanta",
+        "vibhakti": "सम्बोधन",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "O All-Pervading One!"
+      }
+    ]
+  },
+  "कर्तासि": {
+    "split": [
+      "कर्ता",
+      "असि"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : आ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "कृ",
+        "meaning": "The doer / agent"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "भोक्तासि": {
+    "split": [
+      "भोक्ता",
+      "असि"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : आ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "भोक्ता",
+        "lemma": "भोक्तृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "भुज्",
+        "meaning": "The experiencer / enjoyer"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "मुक्त": {
+    "split": [
+      "मुक्तः"
+    ],
+    "sandhiRules": [
+      "विसर्ग-लोप सन्धि : ः + ए = मुक्त ए"
+    ],
+    "padas": [
+      {
+        "pada": "मुक्तः",
+        "lemma": "मुक्त",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Liberated, ever-free"
+      }
+    ]
+  },
+  "एवासि": {
+    "split": [
+      "एव",
+      "असि"
+    ],
+    "sandhiRules": [
+      "दीर्घ स्वर-सन्धि : अ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Truly, alone, verily"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "सर्वदा": {
+    "split": [
+      "सर्वदा"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "सर्वदा",
+        "lemma": "सर्वदा",
+        "type": "avyaya",
+        "meaning": "At all times, eternally"
+      }
+    ]
+  },
+  "एको": {
+    "split": [
+      "एकः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि : ः -> ओ"
+    ],
+    "padas": [
+      {
+        "pada": "एकः",
+        "lemma": "एक",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "The One, solitary, undivided"
+      }
+    ]
+  },
+  "द्रष्टासि": {
+    "split": [
+      "द्रष्टा",
+      "असि"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : आ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "द्रष्टा",
+        "lemma": "द्रष्टृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "दृश्",
+        "meaning": "The sole Seer/Perceiver"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "सर्वस्य": {
+    "split": [
+      "सर्वस्य"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "सर्वस्य",
+        "lemma": "सर्व",
+        "type": "subanta",
+        "vibhakti": "षष्ठी",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Of everything, of all creation"
+      }
+    ]
+  },
+  "मुक्तप्रायोऽसि": {
+    "split": [
+      "मुक्तप्रायः",
+      "असि"
+    ],
+    "sandhiRules": [
+      "उत्व + पूर्वरूप सन्धि : ः -> ओ + ऽ"
+    ],
+    "padas": [
+      {
+        "pada": "मुक्तप्रायः",
+        "lemma": "मुक्तप्राय",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Practically / naturally already free"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "meaning": "You are"
+      }
+    ]
+  },
+  "अयमेव": {
+    "split": [
+      "अयम्",
+      "एव"
+    ],
+    "sandhiRules": [
+      "संयोग : म् + ए = मे"
+    ],
+    "padas": [
+      {
+        "pada": "अयम्",
+        "lemma": "इदम्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "This alone"
+      },
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Indeed, solely"
+      }
+    ]
+  },
+  "हि": {
+    "split": [
+      "हि"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "हि",
+        "lemma": "हि",
+        "type": "avyaya",
+        "meaning": "Because, verily"
+      }
+    ]
+  },
+  "बन्धो": {
+    "split": [
+      "बन्धः"
+    ],
+    "sandhiRules": [
+      "उत्व विसर्ग सन्धि : ः -> ओ"
+    ],
+    "padas": [
+      {
+        "pada": "बन्धः",
+        "lemma": "बन्ध",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Bondage, fetter"
+      }
+    ]
+  },
+  "द्रष्टारं": {
+    "split": [
+      "द्रष्टारम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "द्रष्टारम्",
+        "lemma": "द्रष्टृ",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "दृश्",
+        "meaning": "The Seer (Witness)"
+      }
+    ]
+  },
+  "पश्यसीतरम्": {
+    "split": [
+      "पश्यसि",
+      "इतरम्"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : इ + इ = ई"
+    ],
+    "padas": [
+      {
+        "pada": "पश्यसि",
+        "lemma": "दृश्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "दृश् (भ्वादि)",
+        "meaning": "You behold, you perceive"
+      },
+      {
+        "pada": "इतरम्",
+        "lemma": "इतर",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "As other than yourself (as an object)"
+      }
+    ]
+  },
+  "अहं": {
+    "split": [
+      "अहम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "अहम्",
+        "lemma": "अस्मद्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "meaning": "I (the ego)"
+      }
+    ]
+  },
+  "कर्तेत्यहंमानमहाकृष्णाहिदंशितः": {
+    "split": [
+      "कर्ता",
+      "इति",
+      "अहंमान",
+      "महा",
+      "कृष्ण",
+      "अहि",
+      "दंशितः"
+    ],
+    "sandhiRules": [
+      "गुण स्वर-सन्धि : आ + इ = ए (कर्तेति)",
+      "यण् सन्धि : इ + अ = य (त्यहं)",
+      "कर्मधारय + तत्पुरुष समास"
+    ],
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "meaning": "The doer"
+      },
+      {
+        "pada": "इति",
+        "lemma": "इति",
+        "type": "avyaya",
+        "meaning": "Thus"
+      },
+      {
+        "pada": "अहंमान",
+        "lemma": "अहंमान",
+        "type": "subanta",
+        "meaning": "Egoism, pride of agency"
+      },
+      {
+        "pada": "महाकृष्णाहि",
+        "lemma": "महाकृष्णाहि",
+        "type": "samasa",
+        "meaning": "Great black venomous serpent"
+      },
+      {
+        "pada": "दंशितः",
+        "lemma": "दंशित",
+        "type": "krdanta",
+        "root": "दंश्",
+        "meaning": "Bitten, struck by fangs"
+      }
+    ]
+  },
+  "नाहं": {
+    "split": [
+      "न",
+      "अहम्"
+    ],
+    "sandhiRules": [
+      "दीर्घ स्वर-सन्धि : अ + अ = आ"
+    ],
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अहम्",
+        "lemma": "अस्मद्",
+        "type": "subanta",
+        "meaning": "I"
+      }
+    ]
+  },
+  "कर्तेति": {
+    "split": [
+      "कर्ता",
+      "इति"
+    ],
+    "sandhiRules": [
+      "गुण स्वर-सन्धि : आ + इ = ए"
+    ],
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "meaning": "Doer"
+      },
+      {
+        "pada": "इति",
+        "lemma": "इति",
+        "type": "avyaya",
+        "meaning": "Thus"
+      }
+    ]
+  },
+  "विश्वासामृतं": {
+    "split": [
+      "विश्वास",
+      "अमृतम्"
+    ],
+    "sandhiRules": [
+      "सवर्णदीर्घ सन्धि : अ + अ = आ",
+      "रूपक समास"
+    ],
+    "padas": [
+      {
+        "pada": "विश्वास",
+        "lemma": "विश्वास",
+        "type": "subanta",
+        "meaning": "Faith, conviction"
+      },
+      {
+        "pada": "अमृतम्",
+        "lemma": "अमृत",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "meaning": "The nectar of immortality"
+      }
+    ]
+  },
+  "पीत्वा": {
+    "split": [
+      "पीत्वा"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "पीत्वा",
+        "lemma": "पा",
+        "type": "krdanta",
+        "suffix": "क्त्वा",
+        "root": "पा (पा पाने, भ्वादि)",
+        "meaning": "Having drunk, imbibing"
+      }
+    ]
+  },
+  "चर": {
+    "split": [
+      "चर"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "चर",
+        "lemma": "चर्",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "चर् (भ्वादि)",
+        "meaning": "Walk in peace, live happily!"
+      }
+    ]
+  },
+  "अग्निमीळे": {
+    "split": [
+      "अग्निम्",
+      "ईळे"
+    ],
+    "sandhiRules": [
+      "संयोग : म् + ई = मी"
+    ],
+    "padas": [
+      {
+        "pada": "अग्निम्",
+        "lemma": "अग्नि",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Agni, the primordial flame"
+      },
+      {
+        "pada": "ईळे",
+        "lemma": "ईड्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "उत्तम पुरुष",
+        "vacana": "एकवचन",
+        "root": "ईड् / ईळ्",
+        "meaning": "I praise, I celebrate with song (Rigveda 1.1.1)"
+      }
+    ]
+  },
+  "पु॒रोहि॑तं": {
+    "split": [
+      "पुरोहितम्"
+    ],
+    "sandhiRules": [],
+    "padas": [
+      {
+        "pada": "पुरोहितम्",
+        "lemma": "पुरोहित",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "meaning": "The domestic priest placed in the forefront"
+      }
+    ]
+  }
+}

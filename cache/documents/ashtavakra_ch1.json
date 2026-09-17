@@ -1,0 +1,1469 @@
+{
+  "id": "ashtavakra_ch1",
+  "title": "Ashtavakra Gita - Chapter 1 (Verses 1.2 - 1.8)",
+  "imageUrl": "/ground_truth.png",
+  "verses": [
+    {
+      "verseNumber": "1-2",
+      "rawOcr": "मुक्तिमिच्छसि चेत्तात विषयान् विषवत्यज । क्षमार्जवदयातोषसत्यं पिऊषवद् भज ॥ १-२॥",
+      "correctedText": "मुक्तिमिच्छसि चेत्तात विषयान् विषवत्त्यज । क्षमार्जवदयातोषसत्यं पीयूषवद् भज ॥ १-२॥",
+      "lines": [
+        "मुक्तिमिच्छसि चेत्तात विषयान् विषवत्त्यज ।",
+        "क्षमार्जवदयातोषसत्यं पीयूषवद् भज ॥ १-२॥"
+      ],
+      "words": [
+        {
+          "token": "मुक्तिमिच्छसि",
+          "sandhiVigraha": "मुक्तिम् + इच्छसि",
+          "root": "इष् (तुदादि)",
+          "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
+          "meaning": "If you desire liberation"
+        },
+        {
+          "token": "चेत्तात",
+          "sandhiVigraha": "चेत् + तात",
+          "root": "-",
+          "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
+          "meaning": "If, O dear one"
+        },
+        {
+          "token": "विषयान्",
+          "sandhiVigraha": "विषयान्",
+          "root": "-",
+          "grammar": "विषय (द्वितीया बहु. पुं.)",
+          "meaning": "Sense objects and pleasures"
+        },
+        {
+          "token": "विषवत्त्यज",
+          "sandhiVigraha": "विषवत् + त्यज",
+          "root": "त्यज् (भ्वादि)",
+          "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
+          "meaning": "Renounce like poison"
+        },
+        {
+          "token": "क्षमार्जवदयातोषसत्यं",
+          "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्",
+          "root": "-",
+          "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
+          "meaning": "Forgiveness, sincerity, compassion, contentment and truth"
+        },
+        {
+          "token": "पीयूषवद्",
+          "sandhiVigraha": "पीयूषवत्",
+          "root": "-",
+          "grammar": "तद्धित अव्यय (पीयूषम् इव)",
+          "meaning": "Like divine nectar"
+        },
+        {
+          "token": "भज",
+          "sandhiVigraha": "भज",
+          "root": "भज् (भ्वादि)",
+          "grammar": "भज् (लोट् म.पु. एक.)",
+          "meaning": "Embrace, pursue, cultivate!"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "मुक्तिमिच्छसि",
+          "cleanedToken": "मुक्तिमिच्छसि",
+          "annotation": {
+            "token": "मुक्तिमिच्छसि",
+            "meaning": "If you desire liberation",
+            "root": "इष् (तुदादि)",
+            "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
+            "sandhiVigraha": "मुक्तिम् + इच्छसि"
+          }
+        },
+        {
+          "token": "चेत्तात",
+          "cleanedToken": "चेत्तात",
+          "annotation": {
+            "token": "चेत्तात",
+            "meaning": "If, O dear one",
+            "root": "-",
+            "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
+            "sandhiVigraha": "चेत् + तात"
+          }
+        },
+        {
+          "token": "विषयान्",
+          "cleanedToken": "विषयान्",
+          "annotation": {
+            "token": "विषयान्",
+            "meaning": "Sense objects and pleasures",
+            "root": "-",
+            "grammar": "विषय (द्वितीया बहु. पुं.)",
+            "sandhiVigraha": "विषयान्"
+          }
+        },
+        {
+          "token": "विषवत्त्यज",
+          "cleanedToken": "विषवत्त्यज",
+          "annotation": {
+            "token": "विषवत्त्यज",
+            "meaning": "Renounce like poison",
+            "root": "त्यज् (भ्वादि)",
+            "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
+            "sandhiVigraha": "विषवत् + त्यज"
+          }
+        },
+        {
+          "token": "क्षमार्जवदयातोषसत्यं",
+          "cleanedToken": "क्षमार्जवदयातोषसत्यं",
+          "annotation": {
+            "token": "क्षमार्जवदयातोषसत्यं",
+            "meaning": "Forgiveness, sincerity, compassion, contentment and truth",
+            "root": "-",
+            "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
+            "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्"
+          }
+        },
+        {
+          "token": "पीयूषवद्",
+          "cleanedToken": "पीयूषवद्",
+          "annotation": {
+            "token": "पीयूषवद्",
+            "meaning": "Like divine nectar",
+            "root": "-",
+            "grammar": "तद्धित अव्यय (पीयूषम् इव)",
+            "sandhiVigraha": "पीयूषवत्"
+          }
+        },
+        {
+          "token": "भज",
+          "cleanedToken": "भज",
+          "annotation": {
+            "token": "भज",
+            "meaning": "Embrace, pursue, cultivate!",
+            "root": "भज् (भ्वादि)",
+            "grammar": "भज् (लोट् म.पु. एक.)",
+            "sandhiVigraha": "भज"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-3",
+      "rawOcr": "न पृथ्वी न जलं नाग्निर्न वायुर्द्यौर्न वा भवान् । एषां साक्षिणमात्मानं चिद्रूपं विद्धि मुक्तये ॥ १-३॥",
+      "correctedText": "न पृथ्वी न जलं नाग्निर्न वायुर्द्यौर्न वा भवान् । एषां साक्षिणमात्मानं चिद्रूपं विद्धि मुक्तये ॥ १-३॥",
+      "lines": [
+        "न पृथ्वी न जलं नाग्निर्न वायुर्द्यौर्न वा भवान् ।",
+        "एषां साक्षिणमात्मानं चिद्रूपं विद्धि मुक्तये ॥ १-३॥"
+      ],
+      "words": [
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Neither"
+        },
+        {
+          "token": "पृथ्वी",
+          "sandhiVigraha": "पृथ्वी",
+          "root": "-",
+          "grammar": "प्रथमा एक. स्त्री.",
+          "meaning": "Earth"
+        },
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Nor"
+        },
+        {
+          "token": "जलं",
+          "sandhiVigraha": "जलम्",
+          "root": "-",
+          "grammar": "प्रथमा एक. नपुं.",
+          "meaning": "Water"
+        },
+        {
+          "token": "नाग्निर्न",
+          "sandhiVigraha": "न + अग्निः + न",
+          "root": "-",
+          "grammar": "दीर्घ + विसर्ग-रेफ",
+          "meaning": "Nor fire"
+        },
+        {
+          "token": "वायुर्द्यौर्न",
+          "sandhiVigraha": "वायुः + द्यौः + न",
+          "root": "-",
+          "grammar": "विसर्ग-रेफ",
+          "meaning": "Nor air nor sky/space"
+        },
+        {
+          "token": "वा",
+          "sandhiVigraha": "वा",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Indeed / or"
+        },
+        {
+          "token": "भवान्",
+          "sandhiVigraha": "भवान्",
+          "root": "-",
+          "grammar": "भवत् (प्रथमा एक. पुं.)",
+          "meaning": "Are you"
+        },
+        {
+          "token": "एषां",
+          "sandhiVigraha": "एषाम्",
+          "root": "-",
+          "grammar": "एतद् (षष्ठी बहु.)",
+          "meaning": "Of these elements"
+        },
+        {
+          "token": "साक्षिणमात्मानं",
+          "sandhiVigraha": "साक्षिणम् + आत्मानम्",
+          "root": "साक्षिन् / आत्मन्",
+          "grammar": "द्वितीया एक. पुं.",
+          "meaning": "The Witness, the true Self"
+        },
+        {
+          "token": "चिद्रूपं",
+          "sandhiVigraha": "चित् + रूपम्",
+          "root": "चित्",
+          "grammar": "द्वितीया एक. नपुं.",
+          "meaning": "Pure Consciousness"
+        },
+        {
+          "token": "विद्धि",
+          "sandhiVigraha": "विद्धि",
+          "root": "विद् (अदादि)",
+          "grammar": "लोट् म.पु. एक.",
+          "meaning": "Know, realize!"
+        },
+        {
+          "token": "मुक्तये",
+          "sandhiVigraha": "मुक्तये",
+          "root": "मुच्",
+          "grammar": "मुक्ति (चतुर्थी एक. स्त्री.)",
+          "meaning": "For liberation"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Neither",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "पृथ्वी",
+          "cleanedToken": "पृथ्वी",
+          "annotation": {
+            "token": "पृथ्वी",
+            "meaning": "Earth",
+            "root": "-",
+            "grammar": "प्रथमा एक. स्त्री.",
+            "sandhiVigraha": "पृथ्वी"
+          }
+        },
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Nor",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "जलं",
+          "cleanedToken": "जलं",
+          "annotation": {
+            "token": "जलं",
+            "meaning": "Water",
+            "root": "-",
+            "grammar": "प्रथमा एक. नपुं.",
+            "sandhiVigraha": "जलम्"
+          }
+        },
+        {
+          "token": "नाग्निर्न",
+          "cleanedToken": "नाग्निर्न",
+          "annotation": {
+            "token": "नाग्निर्न",
+            "meaning": "Nor fire",
+            "root": "-",
+            "grammar": "दीर्घ + विसर्ग-रेफ",
+            "sandhiVigraha": "न + अग्निः + न"
+          }
+        },
+        {
+          "token": "वायुर्द्यौर्न",
+          "cleanedToken": "वायुर्द्यौर्न",
+          "annotation": {
+            "token": "वायुर्द्यौर्न",
+            "meaning": "Nor air nor sky/space",
+            "root": "-",
+            "grammar": "विसर्ग-रेफ",
+            "sandhiVigraha": "वायुः + द्यौः + न"
+          }
+        },
+        {
+          "token": "वा",
+          "cleanedToken": "वा",
+          "annotation": {
+            "token": "वा",
+            "meaning": "Indeed / or",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "वा"
+          }
+        },
+        {
+          "token": "भवान्",
+          "cleanedToken": "भवान्",
+          "annotation": {
+            "token": "भवान्",
+            "meaning": "Are you",
+            "root": "-",
+            "grammar": "भवत् (प्रथमा एक. पुं.)",
+            "sandhiVigraha": "भवान्"
+          }
+        },
+        {
+          "token": "एषां",
+          "cleanedToken": "एषां",
+          "annotation": {
+            "token": "एषां",
+            "meaning": "Of these elements",
+            "root": "-",
+            "grammar": "एतद् (षष्ठी बहु.)",
+            "sandhiVigraha": "एषाम्"
+          }
+        },
+        {
+          "token": "साक्षिणमात्मानं",
+          "cleanedToken": "साक्षिणमात्मानं",
+          "annotation": {
+            "token": "साक्षिणमात्मानं",
+            "meaning": "The Witness, the true Self",
+            "root": "साक्षिन् / आत्मन्",
+            "grammar": "द्वितीया एक. पुं.",
+            "sandhiVigraha": "साक्षिणम् + आत्मानम्"
+          }
+        },
+        {
+          "token": "चिद्रूपं",
+          "cleanedToken": "चिद्रूपं",
+          "annotation": {
+            "token": "चिद्रूपं",
+            "meaning": "Pure Consciousness",
+            "root": "चित्",
+            "grammar": "द्वितीया एक. नपुं.",
+            "sandhiVigraha": "चित् + रूपम्"
+          }
+        },
+        {
+          "token": "विद्धि",
+          "cleanedToken": "विद्धि",
+          "annotation": {
+            "token": "विद्धि",
+            "meaning": "Know, realize!",
+            "root": "विद् (अदादि)",
+            "grammar": "लोट् म.पु. एक.",
+            "sandhiVigraha": "विद्धि"
+          }
+        },
+        {
+          "token": "मुक्तये",
+          "cleanedToken": "मुक्तये",
+          "annotation": {
+            "token": "मुक्तये",
+            "meaning": "For liberation",
+            "root": "मुच्",
+            "grammar": "मुक्ति (चतुर्थी एक. स्त्री.)",
+            "sandhiVigraha": "मुक्तये"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-4",
+      "rawOcr": "यदि देहं पृथक् कृत्य चिति विश्राम्य तिष्ठसि । अधुनैव सुखी शान्तो बन्धमुक्तो भविष्यसि ॥ १-४॥",
+      "correctedText": "यदि देहं पृथक् कृत्य चिति विश्राम्य तिष्ठसि । अधुनैव सुखी शान्तो बन्धमुक्तो भविष्यसि ॥ १-४॥",
+      "lines": [
+        "यदि देहं पृथक् कृत्य चिति विश्राम्य तिष्ठसि ।",
+        "अधुनैव सुखी शान्तो बन्धमुक्तो भविष्यसि ॥ १-४॥"
+      ],
+      "words": [
+        {
+          "token": "यदि",
+          "sandhiVigraha": "यदि",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "If"
+        },
+        {
+          "token": "देहं",
+          "sandhiVigraha": "देहम्",
+          "root": "-",
+          "grammar": "देह (द्वितीया एक. पुं.)",
+          "meaning": "The body"
+        },
+        {
+          "token": "पृथक्",
+          "sandhiVigraha": "पृथक्",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Distinctly, separate"
+        },
+        {
+          "token": "कृत्य",
+          "sandhiVigraha": "कृत्य",
+          "root": "कृ (तनादि)",
+          "grammar": "ल्यप् प्रत्ययान्त",
+          "meaning": "Having made"
+        },
+        {
+          "token": "चिति",
+          "sandhiVigraha": "चिति",
+          "root": "चित्",
+          "grammar": "चिति (सप्तमी एक. स्त्री.)",
+          "meaning": "In Pure Consciousness"
+        },
+        {
+          "token": "विश्राम्य",
+          "sandhiVigraha": "विश्राम्य",
+          "root": "वि-श्रम्",
+          "grammar": "ल्यप् प्रत्ययान्त",
+          "meaning": "Reposing at rest"
+        },
+        {
+          "token": "तिष्ठसि",
+          "sandhiVigraha": "तिष्ठसि",
+          "root": "स्था (भ्वादि)",
+          "grammar": "लट् म.पु. एक.",
+          "meaning": "You abide"
+        },
+        {
+          "token": "अधुनैव",
+          "sandhiVigraha": "अधुना + एव",
+          "root": "-",
+          "grammar": "वृद्धि स्वर-सन्धि",
+          "meaning": "Right now, this very moment"
+        },
+        {
+          "token": "सुखी",
+          "sandhiVigraha": "सुखी",
+          "root": "-",
+          "grammar": "सुखिन् (प्रथमा एक. पुं.)",
+          "meaning": "Joyful, happy"
+        },
+        {
+          "token": "शान्तो",
+          "sandhiVigraha": "शान्तः",
+          "root": "शम्",
+          "grammar": "प्रथमा एक. (उत्व सन्धि)",
+          "meaning": "Peaceful, serene"
+        },
+        {
+          "token": "बन्धमुक्तो",
+          "sandhiVigraha": "बन्धमुक्तः",
+          "root": "मुच्",
+          "grammar": "तत्पुरुष समास (उत्व सन्धि)",
+          "meaning": "Freed from bondage"
+        },
+        {
+          "token": "भविष्यसि",
+          "sandhiVigraha": "भविष्यसि",
+          "root": "भू (भ्वादि)",
+          "grammar": "लृट् म.पु. एक.",
+          "meaning": "You will become"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "यदि",
+          "cleanedToken": "यदि",
+          "annotation": {
+            "token": "यदि",
+            "meaning": "If",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "यदि"
+          }
+        },
+        {
+          "token": "देहं",
+          "cleanedToken": "देहं",
+          "annotation": {
+            "token": "देहं",
+            "meaning": "The body",
+            "root": "-",
+            "grammar": "देह (द्वितीया एक. पुं.)",
+            "sandhiVigraha": "देहम्"
+          }
+        },
+        {
+          "token": "पृथक्",
+          "cleanedToken": "पृथक्",
+          "annotation": {
+            "token": "पृथक्",
+            "meaning": "Distinctly, separate",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "पृथक्"
+          }
+        },
+        {
+          "token": "कृत्य",
+          "cleanedToken": "कृत्य",
+          "annotation": {
+            "token": "कृत्य",
+            "meaning": "Having made",
+            "root": "कृ (तनादि)",
+            "grammar": "ल्यप् प्रत्ययान्त",
+            "sandhiVigraha": "कृत्य"
+          }
+        },
+        {
+          "token": "चिति",
+          "cleanedToken": "चिति",
+          "annotation": {
+            "token": "चिति",
+            "meaning": "In Pure Consciousness",
+            "root": "चित्",
+            "grammar": "चिति (सप्तमी एक. स्त्री.)",
+            "sandhiVigraha": "चिति"
+          }
+        },
+        {
+          "token": "विश्राम्य",
+          "cleanedToken": "विश्राम्य",
+          "annotation": {
+            "token": "विश्राम्य",
+            "meaning": "Reposing at rest",
+            "root": "वि-श्रम्",
+            "grammar": "ल्यप् प्रत्ययान्त",
+            "sandhiVigraha": "विश्राम्य"
+          }
+        },
+        {
+          "token": "तिष्ठसि",
+          "cleanedToken": "तिष्ठसि",
+          "annotation": {
+            "token": "तिष्ठसि",
+            "meaning": "You abide",
+            "root": "स्था (भ्वादि)",
+            "grammar": "लट् म.पु. एक.",
+            "sandhiVigraha": "तिष्ठसि"
+          }
+        },
+        {
+          "token": "अधुनैव",
+          "cleanedToken": "अधुनैव",
+          "annotation": {
+            "token": "अधुनैव",
+            "meaning": "Right now, this very moment",
+            "root": "-",
+            "grammar": "वृद्धि स्वर-सन्धि",
+            "sandhiVigraha": "अधुना + एव"
+          }
+        },
+        {
+          "token": "सुखी",
+          "cleanedToken": "सुखी",
+          "annotation": {
+            "token": "सुखी",
+            "meaning": "Joyful, happy",
+            "root": "-",
+            "grammar": "सुखिन् (प्रथमा एक. पुं.)",
+            "sandhiVigraha": "सुखी"
+          }
+        },
+        {
+          "token": "शान्तो",
+          "cleanedToken": "शान्तो",
+          "annotation": {
+            "token": "शान्तो",
+            "meaning": "Peaceful, serene",
+            "root": "शम्",
+            "grammar": "प्रथमा एक. (उत्व सन्धि)",
+            "sandhiVigraha": "शान्तः"
+          }
+        },
+        {
+          "token": "बन्धमुक्तो",
+          "cleanedToken": "बन्धमुक्तो",
+          "annotation": {
+            "token": "बन्धमुक्तो",
+            "meaning": "Freed from bondage",
+            "root": "मुच्",
+            "grammar": "तत्पुरुष समास (उत्व सन्धि)",
+            "sandhiVigraha": "बन्धमुक्तः"
+          }
+        },
+        {
+          "token": "भविष्यसि",
+          "cleanedToken": "भविष्यसि",
+          "annotation": {
+            "token": "भविष्यसि",
+            "meaning": "You will become",
+            "root": "भू (भ्वादि)",
+            "grammar": "लृट् म.पु. एक.",
+            "sandhiVigraha": "भविष्यसि"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-5",
+      "rawOcr": "न त्वं विप्रादिको वर्णो नाश्रमी नाक्षगोचरः । असङ्गोऽसि निराकारो विश्वसाक्षी सुखी भव ॥ १-५॥",
+      "correctedText": "न त्वं विप्रादिको वर्णो नाश्रमी नाक्षगोचरः । असङ्गोऽसि निराकारो विश्वसाक्षी सुखी भव ॥ १-५॥",
+      "lines": [
+        "न त्वं विप्रादिको वर्णो नाश्रमी नाक्षगोचरः ।",
+        "असङ्गोऽसि निराकारो विश्वसाक्षी सुखी भव ॥ १-५॥"
+      ],
+      "words": [
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Not"
+        },
+        {
+          "token": "त्वं",
+          "sandhiVigraha": "त्वम्",
+          "root": "-",
+          "grammar": "युष्मद् (प्रथमा एक.)",
+          "meaning": "You"
+        },
+        {
+          "token": "विप्रादिको",
+          "sandhiVigraha": "विप्रादिकः",
+          "root": "-",
+          "grammar": "प्रथमा एक. पुं. (उत्व सन्धि)",
+          "meaning": "Brahmana and other castes"
+        },
+        {
+          "token": "वर्णो",
+          "sandhiVigraha": "वर्णः",
+          "root": "-",
+          "grammar": "वर्ण (प्रथमा एक.)",
+          "meaning": "Social caste"
+        },
+        {
+          "token": "नाश्रमी",
+          "sandhiVigraha": "न + आश्रमी",
+          "root": "-",
+          "grammar": "दीर्घ सन्धि",
+          "meaning": "Nor belong to any stage of life"
+        },
+        {
+          "token": "नाक्षगोचरः",
+          "sandhiVigraha": "न + अक्षगोचरः",
+          "root": "-",
+          "grammar": "दीर्घ सन्धि",
+          "meaning": "Nor perceptible to sense organs"
+        },
+        {
+          "token": "असङ्गोऽसि",
+          "sandhiVigraha": "असङ्गः + असि",
+          "root": "अस्",
+          "grammar": "उत्व + पूर्वरूप सन्धि",
+          "meaning": "You are unattached"
+        },
+        {
+          "token": "निराकारो",
+          "sandhiVigraha": "निराकारः",
+          "root": "-",
+          "grammar": "प्रथमा एक. (उत्व सन्धि)",
+          "meaning": "Formless"
+        },
+        {
+          "token": "विश्वसाक्षी",
+          "sandhiVigraha": "विश्वसाक्षी",
+          "root": "साक्षिन्",
+          "grammar": "प्रथमा एक. पुं.",
+          "meaning": "Witness of all the cosmos"
+        },
+        {
+          "token": "सुखी",
+          "sandhiVigraha": "सुखी",
+          "root": "-",
+          "grammar": "सुखिन् (प्रथमा एक.)",
+          "meaning": "Joyful"
+        },
+        {
+          "token": "भव",
+          "sandhiVigraha": "भव",
+          "root": "भू (भ्वादि)",
+          "grammar": "लोट् म.पु. एक.",
+          "meaning": "Be!"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Not",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "त्वं",
+          "cleanedToken": "त्वं",
+          "annotation": {
+            "token": "त्वं",
+            "meaning": "You",
+            "root": "-",
+            "grammar": "युष्मद् (प्रथमा एक.)",
+            "sandhiVigraha": "त्वम्"
+          }
+        },
+        {
+          "token": "विप्रादिको",
+          "cleanedToken": "विप्रादिको",
+          "annotation": {
+            "token": "विप्रादिको",
+            "meaning": "Brahmana and other castes",
+            "root": "-",
+            "grammar": "प्रथमा एक. पुं. (उत्व सन्धि)",
+            "sandhiVigraha": "विप्रादिकः"
+          }
+        },
+        {
+          "token": "वर्णो",
+          "cleanedToken": "वर्णो",
+          "annotation": {
+            "token": "वर्णो",
+            "meaning": "Social caste",
+            "root": "-",
+            "grammar": "वर्ण (प्रथमा एक.)",
+            "sandhiVigraha": "वर्णः"
+          }
+        },
+        {
+          "token": "नाश्रमी",
+          "cleanedToken": "नाश्रमी",
+          "annotation": {
+            "token": "नाश्रमी",
+            "meaning": "Nor belong to any stage of life",
+            "root": "-",
+            "grammar": "दीर्घ सन्धि",
+            "sandhiVigraha": "न + आश्रमी"
+          }
+        },
+        {
+          "token": "नाक्षगोचरः",
+          "cleanedToken": "नाक्षगोचरः",
+          "annotation": {
+            "token": "नाक्षगोचरः",
+            "meaning": "Nor perceptible to sense organs",
+            "root": "-",
+            "grammar": "दीर्घ सन्धि",
+            "sandhiVigraha": "न + अक्षगोचरः"
+          }
+        },
+        {
+          "token": "असङ्गोऽसि",
+          "cleanedToken": "असङ्गोऽसि",
+          "annotation": {
+            "token": "असङ्गोऽसि",
+            "meaning": "You are unattached",
+            "root": "अस्",
+            "grammar": "उत्व + पूर्वरूप सन्धि",
+            "sandhiVigraha": "असङ्गः + असि"
+          }
+        },
+        {
+          "token": "निराकारो",
+          "cleanedToken": "निराकारो",
+          "annotation": {
+            "token": "निराकारो",
+            "meaning": "Formless",
+            "root": "-",
+            "grammar": "प्रथमा एक. (उत्व सन्धि)",
+            "sandhiVigraha": "निराकारः"
+          }
+        },
+        {
+          "token": "विश्वसाक्षी",
+          "cleanedToken": "विश्वसाक्षी",
+          "annotation": {
+            "token": "विश्वसाक्षी",
+            "meaning": "Witness of all the cosmos",
+            "root": "साक्षिन्",
+            "grammar": "प्रथमा एक. पुं.",
+            "sandhiVigraha": "विश्वसाक्षी"
+          }
+        },
+        {
+          "token": "सुखी",
+          "cleanedToken": "सुखी",
+          "annotation": {
+            "token": "सुखी",
+            "meaning": "Joyful",
+            "root": "-",
+            "grammar": "सुखिन् (प्रथमा एक.)",
+            "sandhiVigraha": "सुखी"
+          }
+        },
+        {
+          "token": "भव",
+          "cleanedToken": "भव",
+          "annotation": {
+            "token": "भव",
+            "meaning": "Be!",
+            "root": "भू (भ्वादि)",
+            "grammar": "लोट् म.पु. एक.",
+            "sandhiVigraha": "भव"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-6",
+      "rawOcr": "धर्माधर्मौ सुखं दुःखं मानसानि न ते विभो । न कर्तासि न भोक्तासि मुक्त एवासि सर्वदा ॥ १-६॥",
+      "correctedText": "धर्माधर्मौ सुखं दुःखं मानसानि न ते विभो । न कर्तासि न भोक्तासि मुक्त एवासि सर्वदा ॥ १-६॥",
+      "lines": [
+        "धर्माधर्मौ सुखं दुःखं मानसानि न ते विभो ।",
+        "न कर्तासि न भोक्तासि मुक्त एवासि सर्वदा ॥ १-६॥"
+      ],
+      "words": [
+        {
+          "token": "धर्माधर्मौ",
+          "sandhiVigraha": "धर्मः + अधर्मः",
+          "root": "-",
+          "grammar": "द्वन्द्व समास (प्रथमा द्विवचन)",
+          "meaning": "Righteousness and unrighteousness"
+        },
+        {
+          "token": "सुखं",
+          "sandhiVigraha": "सुखम्",
+          "root": "-",
+          "grammar": "प्रथमा एक. नपुं.",
+          "meaning": "Pleasure"
+        },
+        {
+          "token": "दुःखं",
+          "sandhiVigraha": "दुःखम्",
+          "root": "-",
+          "grammar": "प्रथमा एक. नपुं.",
+          "meaning": "Pain"
+        },
+        {
+          "token": "मानसानि",
+          "sandhiVigraha": "मानसानि",
+          "root": "-",
+          "grammar": "प्रथमा बहु. नपुं.",
+          "meaning": "Attributes of the mind only"
+        },
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Not"
+        },
+        {
+          "token": "ते",
+          "sandhiVigraha": "ते",
+          "root": "-",
+          "grammar": "युष्मद् (षष्ठी एक.)",
+          "meaning": "Yours"
+        },
+        {
+          "token": "विभो",
+          "sandhiVigraha": "विभो",
+          "root": "विभु",
+          "grammar": "सम्बोधन एक.",
+          "meaning": "O All-Pervading One!"
+        },
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Neither"
+        },
+        {
+          "token": "कर्तासि",
+          "sandhiVigraha": "कर्ता + असि",
+          "root": "कृ / अस्",
+          "grammar": "सवर्णदीर्घ सन्धि",
+          "meaning": "Are you the doer"
+        },
+        {
+          "token": "न",
+          "sandhiVigraha": "न",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Nor"
+        },
+        {
+          "token": "भोक्तासि",
+          "sandhiVigraha": "भोक्ता + असि",
+          "root": "भुज् / अस्",
+          "grammar": "सवर्णदीर्घ सन्धि",
+          "meaning": "The enjoyer / experiencer"
+        },
+        {
+          "token": "मुक्त",
+          "sandhiVigraha": "मुक्तः",
+          "root": "मुच्",
+          "grammar": "विसर्ग-लोप सन्धि",
+          "meaning": "Ever-free"
+        },
+        {
+          "token": "एवासि",
+          "sandhiVigraha": "एव + असि",
+          "root": "अस्",
+          "grammar": "दीर्घ सन्धि",
+          "meaning": "Truly you are"
+        },
+        {
+          "token": "सर्वदा",
+          "sandhiVigraha": "सर्वदा",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Always, eternally"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "धर्माधर्मौ",
+          "cleanedToken": "धर्माधर्मौ",
+          "annotation": {
+            "token": "धर्माधर्मौ",
+            "meaning": "Righteousness and unrighteousness",
+            "root": "-",
+            "grammar": "द्वन्द्व समास (प्रथमा द्विवचन)",
+            "sandhiVigraha": "धर्मः + अधर्मः"
+          }
+        },
+        {
+          "token": "सुखं",
+          "cleanedToken": "सुखं",
+          "annotation": {
+            "token": "सुखं",
+            "meaning": "Pleasure",
+            "root": "-",
+            "grammar": "प्रथमा एक. नपुं.",
+            "sandhiVigraha": "सुखम्"
+          }
+        },
+        {
+          "token": "दुःखं",
+          "cleanedToken": "दुःखं",
+          "annotation": {
+            "token": "दुःखं",
+            "meaning": "Pain",
+            "root": "-",
+            "grammar": "प्रथमा एक. नपुं.",
+            "sandhiVigraha": "दुःखम्"
+          }
+        },
+        {
+          "token": "मानसानि",
+          "cleanedToken": "मानसानि",
+          "annotation": {
+            "token": "मानसानि",
+            "meaning": "Attributes of the mind only",
+            "root": "-",
+            "grammar": "प्रथमा बहु. नपुं.",
+            "sandhiVigraha": "मानसानि"
+          }
+        },
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Not",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "ते",
+          "cleanedToken": "ते",
+          "annotation": {
+            "token": "ते",
+            "meaning": "Yours",
+            "root": "-",
+            "grammar": "युष्मद् (षष्ठी एक.)",
+            "sandhiVigraha": "ते"
+          }
+        },
+        {
+          "token": "विभो",
+          "cleanedToken": "विभो",
+          "annotation": {
+            "token": "विभो",
+            "meaning": "O All-Pervading One!",
+            "root": "विभु",
+            "grammar": "सम्बोधन एक.",
+            "sandhiVigraha": "विभो"
+          }
+        },
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Neither",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "कर्तासि",
+          "cleanedToken": "कर्तासि",
+          "annotation": {
+            "token": "कर्तासि",
+            "meaning": "Are you the doer",
+            "root": "कृ / अस्",
+            "grammar": "सवर्णदीर्घ सन्धि",
+            "sandhiVigraha": "कर्ता + असि"
+          }
+        },
+        {
+          "token": "न",
+          "cleanedToken": "न",
+          "annotation": {
+            "token": "न",
+            "meaning": "Nor",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "न"
+          }
+        },
+        {
+          "token": "भोक्तासि",
+          "cleanedToken": "भोक्तासि",
+          "annotation": {
+            "token": "भोक्तासि",
+            "meaning": "The enjoyer / experiencer",
+            "root": "भुज् / अस्",
+            "grammar": "सवर्णदीर्घ सन्धि",
+            "sandhiVigraha": "भोक्ता + असि"
+          }
+        },
+        {
+          "token": "मुक्त",
+          "cleanedToken": "मुक्त",
+          "annotation": {
+            "token": "मुक्त",
+            "meaning": "Ever-free",
+            "root": "मुच्",
+            "grammar": "विसर्ग-लोप सन्धि",
+            "sandhiVigraha": "मुक्तः"
+          }
+        },
+        {
+          "token": "एवासि",
+          "cleanedToken": "एवासि",
+          "annotation": {
+            "token": "एवासि",
+            "meaning": "Truly you are",
+            "root": "अस्",
+            "grammar": "दीर्घ सन्धि",
+            "sandhiVigraha": "एव + असि"
+          }
+        },
+        {
+          "token": "सर्वदा",
+          "cleanedToken": "सर्वदा",
+          "annotation": {
+            "token": "सर्वदा",
+            "meaning": "Always, eternally",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "सर्वदा"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-7",
+      "rawOcr": "एको द्रष्टासि सर्वस्य मुक्तप्रायोऽसि सर्वदा । अयमेव हि ते बन्धो द्रष्टारं पश्यसीतरम् ॥ १-७॥",
+      "correctedText": "एको द्रष्टासि सर्वस्य मुक्तप्रायोऽसि सर्वदा । अयमेव हि ते बन्धो द्रष्टारं पश्यसीतरम् ॥ १-७॥",
+      "lines": [
+        "एको द्रष्टासि सर्वस्य मुक्तप्रायोऽसि सर्वदा ।",
+        "अयमेव हि ते बन्धो द्रष्टारं पश्यसीतरम् ॥ १-७॥"
+      ],
+      "words": [
+        {
+          "token": "एको",
+          "sandhiVigraha": "एकः",
+          "root": "-",
+          "grammar": "उत्व विसर्ग सन्धि",
+          "meaning": "The One"
+        },
+        {
+          "token": "द्रष्टासि",
+          "sandhiVigraha": "द्रष्टा + असि",
+          "root": "दृश् / अस्",
+          "grammar": "सवर्णदीर्घ सन्धि",
+          "meaning": "Witness/Seer are you"
+        },
+        {
+          "token": "सर्वस्य",
+          "sandhiVigraha": "सर्वस्य",
+          "root": "-",
+          "grammar": "सर्व (षष्ठी एक.)",
+          "meaning": "Of everything"
+        },
+        {
+          "token": "मुक्तप्रायोऽसि",
+          "sandhiVigraha": "मुक्तप्रायः + असि",
+          "root": "अस्",
+          "grammar": "उत्व + पूर्वरूप सन्धि",
+          "meaning": "Already virtually liberated"
+        },
+        {
+          "token": "सर्वदा",
+          "sandhiVigraha": "सर्वदा",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Always"
+        },
+        {
+          "token": "अयमेव",
+          "sandhiVigraha": "अयम् + एव",
+          "root": "-",
+          "grammar": "संयोग",
+          "meaning": "This indeed"
+        },
+        {
+          "token": "हि",
+          "sandhiVigraha": "हि",
+          "root": "-",
+          "grammar": "अव्यय",
+          "meaning": "Verily"
+        },
+        {
+          "token": "ते",
+          "sandhiVigraha": "ते",
+          "root": "-",
+          "grammar": "युष्मद् (षष्ठी)",
+          "meaning": "Your"
+        },
+        {
+          "token": "बन्धो",
+          "sandhiVigraha": "बन्धः",
+          "root": "बन्ध्",
+          "grammar": "उत्व विसर्ग सन्धि",
+          "meaning": "Only bondage"
+        },
+        {
+          "token": "द्रष्टारं",
+          "sandhiVigraha": "द्रष्टारम्",
+          "root": "दृश्",
+          "grammar": "द्वितीया एक.",
+          "meaning": "That the Seer"
+        },
+        {
+          "token": "पश्यसीतरम्",
+          "sandhiVigraha": "पश्यसि + इतरम्",
+          "root": "दृश्",
+          "grammar": "सवर्णदीर्घ सन्धि",
+          "meaning": "You perceive as another / object"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "एको",
+          "cleanedToken": "एको",
+          "annotation": {
+            "token": "एको",
+            "meaning": "The One",
+            "root": "-",
+            "grammar": "उत्व विसर्ग सन्धि",
+            "sandhiVigraha": "एकः"
+          }
+        },
+        {
+          "token": "द्रष्टासि",
+          "cleanedToken": "द्रष्टासि",
+          "annotation": {
+            "token": "द्रष्टासि",
+            "meaning": "Witness/Seer are you",
+            "root": "दृश् / अस्",
+            "grammar": "सवर्णदीर्घ सन्धि",
+            "sandhiVigraha": "द्रष्टा + असि"
+          }
+        },
+        {
+          "token": "सर्वस्य",
+          "cleanedToken": "सर्वस्य",
+          "annotation": {
+            "token": "सर्वस्य",
+            "meaning": "Of everything",
+            "root": "-",
+            "grammar": "सर्व (षष्ठी एक.)",
+            "sandhiVigraha": "सर्वस्य"
+          }
+        },
+        {
+          "token": "मुक्तप्रायोऽसि",
+          "cleanedToken": "मुक्तप्रायोऽसि",
+          "annotation": {
+            "token": "मुक्तप्रायोऽसि",
+            "meaning": "Already virtually liberated",
+            "root": "अस्",
+            "grammar": "उत्व + पूर्वरूप सन्धि",
+            "sandhiVigraha": "मुक्तप्रायः + असि"
+          }
+        },
+        {
+          "token": "सर्वदा",
+          "cleanedToken": "सर्वदा",
+          "annotation": {
+            "token": "सर्वदा",
+            "meaning": "Always",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "सर्वदा"
+          }
+        },
+        {
+          "token": "अयमेव",
+          "cleanedToken": "अयमेव",
+          "annotation": {
+            "token": "अयमेव",
+            "meaning": "This indeed",
+            "root": "-",
+            "grammar": "संयोग",
+            "sandhiVigraha": "अयम् + एव"
+          }
+        },
+        {
+          "token": "हि",
+          "cleanedToken": "हि",
+          "annotation": {
+            "token": "हि",
+            "meaning": "Verily",
+            "root": "-",
+            "grammar": "अव्यय",
+            "sandhiVigraha": "हि"
+          }
+        },
+        {
+          "token": "ते",
+          "cleanedToken": "ते",
+          "annotation": {
+            "token": "ते",
+            "meaning": "Your",
+            "root": "-",
+            "grammar": "युष्मद् (षष्ठी)",
+            "sandhiVigraha": "ते"
+          }
+        },
+        {
+          "token": "बन्धो",
+          "cleanedToken": "बन्धो",
+          "annotation": {
+            "token": "बन्धो",
+            "meaning": "Only bondage",
+            "root": "बन्ध्",
+            "grammar": "उत्व विसर्ग सन्धि",
+            "sandhiVigraha": "बन्धः"
+          }
+        },
+        {
+          "token": "द्रष्टारं",
+          "cleanedToken": "द्रष्टारं",
+          "annotation": {
+            "token": "द्रष्टारं",
+            "meaning": "That the Seer",
+            "root": "दृश्",
+            "grammar": "द्वितीया एक.",
+            "sandhiVigraha": "द्रष्टारम्"
+          }
+        },
+        {
+          "token": "पश्यसीतरम्",
+          "cleanedToken": "पश्यसीतरम्",
+          "annotation": {
+            "token": "पश्यसीतरम्",
+            "meaning": "You perceive as another / object",
+            "root": "दृश्",
+            "grammar": "सवर्णदीर्घ सन्धि",
+            "sandhiVigraha": "पश्यसि + इतरम्"
+          }
+        }
+      ]
+    },
+    {
+      "verseNumber": "1-8",
+      "rawOcr": "अहं कर्तेत्यहंमानमहाकृष्णाहिदंशितः । नाहं कर्तेति विश्वासामृतं पीत्वा सुखं चर ॥ १-८॥",
+      "correctedText": "अहं कर्तेत्यहंमानमहाकृष्णाहिदंशितः । नाहं कर्तेति विश्वासामृतं पीत्वा सुखं चर ॥ १-८॥",
+      "lines": [
+        "अहं कर्तेत्यहंमानमहाकृष्णाहिदंशितः ।",
+        "नाहं कर्तेति विश्वासामृतं पीत्वा सुखं चर ॥ १-८॥"
+      ],
+      "words": [
+        {
+          "token": "अहं",
+          "sandhiVigraha": "अहम्",
+          "root": "-",
+          "grammar": "अस्मद् (प्रथमा एक.)",
+          "meaning": "I"
+        },
+        {
+          "token": "कर्तेत्यहंमानमहाकृष्णाहिदंशितः",
+          "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः",
+          "root": "कृ / दंश्",
+          "grammar": "समास + सन्धि",
+          "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism"
+        },
+        {
+          "token": "नाहं",
+          "sandhiVigraha": "न + अहम्",
+          "root": "-",
+          "grammar": "दीर्घ स्वर-सन्धि",
+          "meaning": "I am not"
+        },
+        {
+          "token": "कर्तेति",
+          "sandhiVigraha": "कर्ता + इति",
+          "root": "कृ",
+          "grammar": "गुण स्वर-सन्धि",
+          "meaning": "The doer"
+        },
+        {
+          "token": "विश्वासामृतं",
+          "sandhiVigraha": "विश्वास + अमृतम्",
+          "root": "-",
+          "grammar": "दीर्घ सन्धि / रूपक समास",
+          "meaning": "The nectar of faith/conviction"
+        },
+        {
+          "token": "पीत्वा",
+          "sandhiVigraha": "पीत्वा",
+          "root": "पा (भ्वादि)",
+          "grammar": "क्त्वा प्रत्ययान्त",
+          "meaning": "Having drunk"
+        },
+        {
+          "token": "सुखं",
+          "sandhiVigraha": "सुखम्",
+          "root": "-",
+          "grammar": "क्रियाविशेषण",
+          "meaning": "Happily, at peace"
+        },
+        {
+          "token": "चर",
+          "sandhiVigraha": "चर",
+          "root": "चर् (भ्वादि)",
+          "grammar": "लोट् म.पु. एक.",
+          "meaning": "Live and wander freely!"
+        }
+      ],
+      "tokens": [
+        {
+          "token": "अहं",
+          "cleanedToken": "अहं",
+          "annotation": {
+            "token": "अहं",
+            "meaning": "I",
+            "root": "-",
+            "grammar": "अस्मद् (प्रथमा एक.)",
+            "sandhiVigraha": "अहम्"
+          }
+        },
+        {
+          "token": "कर्तेत्यहंमानमहाकृष्णाहिदंशितः",
+          "cleanedToken": "कर्तेत्यहंमानमहाकृष्णाहिदंशितः",
+          "annotation": {
+            "token": "कर्तेत्यहंमानमहाकृष्णाहिदंशितः",
+            "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism",
+            "root": "कृ / दंश्",
+            "grammar": "समास + सन्धि",
+            "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः"
+          }
+        },
+        {
+          "token": "नाहं",
+          "cleanedToken": "नाहं",
+          "annotation": {
+            "token": "नाहं",
+            "meaning": "I am not",
+            "root": "-",
+            "grammar": "दीर्घ स्वर-सन्धि",
+            "sandhiVigraha": "न + अहम्"
+          }
+        },
+        {
+          "token": "कर्तेति",
+          "cleanedToken": "कर्तेति",
+          "annotation": {
+            "token": "कर्तेति",
+            "meaning": "The doer",
+            "root": "कृ",
+            "grammar": "गुण स्वर-सन्धि",
+            "sandhiVigraha": "कर्ता + इति"
+          }
+        },
+        {
+          "token": "विश्वासामृतं",
+          "cleanedToken": "विश्वासामृतं",
+          "annotation": {
+            "token": "विश्वासामृतं",
+            "meaning": "The nectar of faith/conviction",
+            "root": "-",
+            "grammar": "दीर्घ सन्धि / रूपक समास",
+            "sandhiVigraha": "विश्वास + अमृतम्"
+          }
+        },
+        {
+          "token": "पीत्वा",
+          "cleanedToken": "पीत्वा",
+          "annotation": {
+            "token": "पीत्वा",
+            "meaning": "Having drunk",
+            "root": "पा (भ्वादि)",
+            "grammar": "क्त्वा प्रत्ययान्त",
+            "sandhiVigraha": "पीत्वा"
+          }
+        },
+        {
+          "token": "सुखं",
+          "cleanedToken": "सुखं",
+          "annotation": {
+            "token": "सुखं",
+            "meaning": "Happily, at peace",
+            "root": "-",
+            "grammar": "क्रियाविशेषण",
+            "sandhiVigraha": "सुखम्"
+          }
+        },
+        {
+          "token": "चर",
+          "cleanedToken": "चर",
+          "annotation": {
+            "token": "चर",
+            "meaning": "Live and wander freely!",
+            "root": "चर् (भ्वादि)",
+            "grammar": "लोट् म.पु. एक.",
+            "sandhiVigraha": "चर"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "image",
+  "versesCount": 7,
+  "wordsCount": 76
+}
