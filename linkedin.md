@@ -27,45 +27,54 @@ Sanskrit is one of the most logically structured languages in existence, yet dig
 We built a **100% self-contained Next.js 16 + React 19 application** deployable directly to **Vercel** with **zero external dependencies** (no Python daemons, no Redis, no AWS S3 buckets, and no external CDNs).
 
 ```mermaid
-flowchart TD
-    A[Input: Any PDF, Image Scan, or Devanagari Text] --> B[Devanagari OCR Extraction - Tesseract WASM]
-    B --> C[Dual OCR Post-Correction Engine]
+graph TD
+    A["Input: Any PDF, Image Scan, or Text"] --> B["OCR Extraction (Tesseract WASM)"]
+    B --> C["Dual OCR Post-Correction Engine"]
     
-    subgraph PostCorrection [Post-Correction Layer]
-        C1[chronbmm/sanskrit-byt5-ocr-postcorrection API Bridge]
-        C2[In-Process N-Gram & Confusion Matrix Ranker]
+    subgraph PostCorrection["Post-Correction Layer"]
+        C1["chronbmm/sanskrit-byt5 Model Bridge"]
+        C2["N-Gram & Confusion Matrix Ranker"]
     end
-    C <--> PostCorrection
+    C --> C1
+    C --> C2
     
-    C --> D[Sandhi Vigraha & Morpheme Splitting Engine]
+    C --> D["Sandhi Vigraha & Morpheme Splitting Engine"]
     
-    subgraph RetrievalLayer [Deterministic 4-Tier Linguistic Retrieval]
-        D1[Tier 1: O 1 Exact-Keyed Hash Maps]
-        D2[Tier 2: Phonetic Sandhi Vigraha]
-        D3[Tier 3: Paninian Affix-Stripping Stemmer]
-        D4[Tier 4: Bigram Priors & Confusion Matrix]
+    subgraph RetrievalLayer["Deterministic 4-Tier Linguistic Retrieval"]
+        D1["Tier 1: O(1) Exact-Keyed Hash Maps"]
+        D2["Tier 2: Phonetic Sandhi Vigraha"]
+        D3["Tier 3: Paninian Suffix-Stripping Stemmer"]
+        D4["Tier 4: Bigram Priors & Confusion Matrix"]
     end
-    D <--> RetrievalLayer
+    D --> D1
+    D --> D2
+    D --> D3
+    D --> D4
 
-    subgraph CanonicalDatasets [Exact CDSL Lexicon Indexes - 45,385 Words]
-        L1[V.S. Apte 1890: 34,277 Headwords - 9.58 MB]
-        L2[Hermann Grassmann Rigveda: 11,108 Entries - 4.01 MB]
-        L3[Sanskrit Heritage Morphology: 69 Compounds / 100 Padas]
-        L4[Monier-Williams Core: Verb Roots & Paninian Gaṇas]
+    subgraph CanonicalDatasets["Exact CDSL Lexicon Indexes (45,385 Words)"]
+        L1["V.S. Apte 1890: 34,277 Headwords (9.58 MB)"]
+        L2["Hermann Grassmann Rigveda: 11,108 Entries (4.01 MB)"]
+        L3["Sanskrit Heritage Morphology: 69 Compounds / 100 Padas"]
+        L4["Monier-Williams Core: Verb Roots & Paninian Ganas"]
     end
-    RetrievalLayer <--> CanonicalDatasets
+    D1 --- L1
+    D1 --- L2
+    D1 --- L3
+    D1 --- L4
     
-    D --> E[Incremental Persistent Cache Layer]
-    subgraph CacheLayer [Dual Vercel-Resilient Storage]
-        E1[cache/annotations.json - Pre-indexed 0ms Padas]
-        E2[cache/documents/*.json - Segmented Shlokas]
-        E3[/tmp/sanskrit_cache Fallback for Vercel Serverless EROFS]
+    D --> E["Incremental Persistent Cache Layer"]
+    subgraph CacheLayer["Dual Vercel-Resilient Storage"]
+        E1["cache/annotations.json (Pre-indexed 0ms Padas)"]
+        E2["cache/documents/*.json (Segmented Shlokas)"]
+        E3["/tmp/sanskrit_cache Fallback for Vercel Serverless EROFS"]
     end
-    E <--> CacheLayer
+    E --> E1
+    E --> E2
+    E --> E3
     
-    E --> F[Next.js App Router UI]
-    F --> G[Interactive Reader: Split-Screen Scan & Typography]
-    G -->|Silky 45ms Hover Reveal| H[Instant Tooltip: Meaning + Root + Grammar + Sandhi Vigraha]
+    E --> F["Next.js 16 App Router UI"]
+    F --> G["Interactive Reader (Split-Screen Scan & Typography)"]
+    G --> H["Instant Hover Tooltip (Meaning + Root + Grammar + Sandhi)"]
 ```
 
 ---
