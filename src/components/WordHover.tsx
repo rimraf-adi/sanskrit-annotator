@@ -10,13 +10,18 @@ interface WordHoverProps {
 }
 
 export function WordHover({ wordToken, children }: WordHoverProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const [coords, setCoords] = useState<{ top: number; left: number; placeAbove: boolean }>({
     top: 0,
     left: 0,
     placeAbove: true
   });
+
   const triggerRef = useRef<HTMLSpanElement>(null);
+  const enterTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const leaveTimerRef = useRef<NodeJS.Timeout | null>(null);
+
   const annotation: WordAnnotation = wordToken.annotation || {
     token: wordToken.token,
     meaning: 'अन्वेषणीय पद',
@@ -30,41 +35,73 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
     const tooltipHeight = 220;
 
     let left = rect.left + rect.width / 2 - tooltipWidth / 2;
-    // Boundary check viewport horizontally
     if (left < 16) left = 16;
     if (left + tooltipWidth > window.innerWidth - 16) {
       left = window.innerWidth - tooltipWidth - 16;
     }
 
-    // Determine whether to place above or below
     const spaceAbove = rect.top;
-    const placeAbove = spaceAbove > tooltipHeight + 10;
+    const placeAbove = spaceAbove > tooltipHeight + 12;
     const top = placeAbove
-      ? rect.top + window.scrollY - 10
-      : rect.bottom + window.scrollY + 10;
+      ? rect.top + window.scrollY - 8
+      : rect.bottom + window.scrollY + 8;
 
     setCoords({ top, left, placeAbove });
   };
 
   const handleMouseEnter = () => {
-    updatePosition();
-    setIsOpen(true);
+    if (leaveTimerRef.current) {
+      clearTimeout(leaveTimerRef.current);
+      leaveTimerRef.current = null;
+    }
+
+    // Micro-delay (45ms): virtually zero delay, but eliminates jitter when sweeping across text
+    enterTimerRef.current = setTimeout(() => {
+      updatePosition();
+      setIsMounted(true);
+      // Trigger animation on next frame
+      requestAnimationFrame(() => {
+        setIsVisible(true);
+      });
+    }, 45);
   };
 
   const handleMouseLeave = () => {
-    setIsOpen(false);
+    if (enterTimerRef.current) {
+      clearTimeout(enterTimerRef.current);
+      enterTimerRef.current = null;
+    }
+
+    // Gentle exit: fade out smoothly over 140ms before unmounting
+    leaveTimerRef.current = setTimeout(() => {
+      setIsVisible(false);
+      setTimeout(() => {
+        setIsMounted(false);
+      }, 140);
+    }, 50);
   };
+
+  useEffect(() => {
+    return () => {
+      if (enterTimerRef.current) clearTimeout(enterTimerRef.current);
+      if (leaveTimerRef.current) clearTimeout(leaveTimerRef.current);
+    };
+  }, []);
 
   return (
     <span
       ref={triggerRef}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="hover-trigger relative inline-block cursor-help select-text font-medium text-stone-900 border-b border-dotted border-amber-400/80 transition-colors duration-100"
+      className={`hover-trigger relative inline-block cursor-help select-text font-medium transition-all duration-200 ease-out rounded-sm px-1 -mx-0.5 border-b border-dotted ${
+        isVisible
+          ? 'bg-amber-100/90 text-amber-950 border-amber-500 shadow-xs ring-2 ring-amber-300/60'
+          : 'text-stone-900 border-amber-400/70 hover:bg-amber-50 hover:text-amber-900'
+      }`}
     >
       {children}
 
-      {isOpen && (
+      {isMounted && (
         <div
           role="tooltip"
           style={{
@@ -73,9 +110,16 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
             bottom: coords.placeAbove ? `${window.innerHeight - (coords.top - window.scrollY)}px` : 'auto',
             left: `${coords.left}px`,
             width: '360px',
-            zIndex: 9999
+            zIndex: 9999,
+            transition: 'opacity 140ms cubic-bezier(0.16, 1, 0.3, 1), transform 140ms cubic-bezier(0.16, 1, 0.3, 1)',
+            transform: isVisible
+              ? 'translateY(0px) scale(1)'
+              : coords.placeAbove
+              ? 'translateY(6px) scale(0.97)'
+              : 'translateY(-6px) scale(0.97)',
+            opacity: isVisible ? 1 : 0
           }}
-          className="pointer-events-none animate-in fade-in zoom-in-95 duration-150 rounded-xl bg-white/95 backdrop-blur-md p-4 shadow-2xl border border-amber-200/90 text-stone-800 text-xs font-sans ring-1 ring-amber-950/5"
+          className="pointer-events-none rounded-xl bg-white/95 backdrop-blur-md p-4 shadow-2xl border border-amber-200/90 text-stone-800 text-xs font-sans ring-1 ring-amber-950/5 will-change-transform"
         >
           {/* Header: Token & IAST + 0ms Cache Badge */}
           <div className="flex items-start justify-between border-b border-stone-100 pb-2.5 mb-2.5">
