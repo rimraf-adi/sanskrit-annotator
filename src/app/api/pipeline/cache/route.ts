@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
         grassmannRigvedicEntries: grassmannEntries,
         morphologyRuleCount: 15,
         cacheStatus: 'active',
-        latency: '0ms (pre-indexed memory cache)'
+        latency: '< 1ms (in-memory lookup)'
       }
     });
   } catch (err: any) {

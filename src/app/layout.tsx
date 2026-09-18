@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sanskrit Live - Incremental Shloka Annotation & OCR Pipeline",
-  description: "Interactive Sanskrit Shloka Reader with 0ms Hover Annotations, Sandhi Vigraha, Morphology, and Multi-Layer Lexicon Lookup.",
+  title: "Sanskrit Digital Humanities — Linguistic Annotation & Corpus Analysis",
+  description: "Scholarly Sanskrit reader with morphological parsing, Sandhi Vigraha, and multi-layer CDSL lexicon cross-referencing.",
 };
 
 export default function RootLayout({

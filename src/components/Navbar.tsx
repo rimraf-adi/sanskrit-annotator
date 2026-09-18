@@ -1,7 +1,6 @@
 'use client';
 
-import React from 'react';
-import { Sparkles, BookOpen, Layers, PlusCircle, Database, Check } from 'lucide-react';
+import { PlusCircle, Database } from 'lucide-react';
 import { DocumentRegistryItem } from '@/../lib/pipeline/types';
 
 interface NavbarProps {
@@ -30,16 +29,11 @@ export function Navbar({
             ॐ
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <h1 className="font-serif font-bold text-stone-900 text-lg tracking-tight">
-                Sanskrit Live
-              </h1>
-              <span className="bg-amber-100/90 text-amber-800 text-[10px] font-semibold px-2 py-0.5 rounded-full border border-amber-200">
-                0ms Incremental Annotations
-              </span>
-            </div>
+            <h1 className="font-serif font-bold text-stone-900 text-lg tracking-tight">
+              Sanskrit Live
+            </h1>
             <p className="text-[11px] text-stone-500 font-sans hidden sm:block">
-              Exact CDSL Dictionaries • ByT5 OCR Post-Correction • Sandhi Vigraha
+              Computational Sanskrit Linguistics & Corpus Annotation
             </p>
           </div>
         </div>
@@ -69,7 +63,7 @@ export function Navbar({
                   : 'text-stone-600 hover:text-stone-900'
               }`}
             >
-              Reader
+              Corpus Reader
             </button>
             <button
               onClick={() => setActiveView('ingest')}
@@ -80,7 +74,7 @@ export function Navbar({
               }`}
             >
               <PlusCircle className="w-3.5 h-3.5" />
-              <span>Ingest</span>
+              <span>Ingestion Studio</span>
             </button>
             <button
               onClick={() => setActiveView('cache')}
@@ -91,7 +85,7 @@ export function Navbar({
               }`}
             >
               <Database className="w-3.5 h-3.5" />
-              <span>Cache</span>
+              <span>Lexicon Index</span>
             </button>
           </div>
         </div>

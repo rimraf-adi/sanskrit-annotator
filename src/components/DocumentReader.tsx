@@ -42,12 +42,12 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
         {/* Viewer Toolbar */}
         <div className="flex items-center justify-between px-4 py-3 bg-stone-950 border-b border-stone-800 text-xs text-stone-300">
           <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="font-semibold text-stone-200">
-              {(document.type || 'image').toUpperCase()} स्रोत (Source Scan)
+            <span className="w-2 h-2 rounded-full bg-stone-400" />
+            <span className="font-medium text-stone-200">
+              Manuscript Source Scan
             </span>
             <span className="text-stone-500 font-mono text-[11px]">
-              {document.id}
+              [{document.id}]
             </span>
           </div>
 
@@ -95,7 +95,7 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
               <FileText className="w-12 h-12 text-stone-600 mb-3" />
               <p className="text-sm font-medium">Text Ingestion Mode (No Image Provided)</p>
               <p className="text-xs text-stone-500 mt-1">
-                Verses parsed and indexed into 0ms memory cache.
+                Verses parsed and indexed into memory store.
               </p>
             </div>
           )}
@@ -108,21 +108,16 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
         </div>
       </div>
 
-      {/* Right Column: Interactive Shloka Verses with 0ms Hover */}
+      {/* Right Column: Interactive Shloka Verses */}
       <div className="w-full lg:w-1/2 flex flex-col">
         {/* Header with Title & OCR Diff Toggle */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-stone-200">
           <div>
-            <div className="flex items-center gap-2">
-              <h2 className="text-xl font-serif font-bold text-stone-900 tracking-tight">
-                {document.title}
-              </h2>
-              <span className="rounded-full bg-amber-100 text-amber-800 text-[10px] font-semibold px-2 py-0.5 border border-amber-300/60">
-                0ms Hover Active
-              </span>
-            </div>
+            <h2 className="text-xl font-serif font-bold text-stone-900 tracking-tight">
+              {document.title}
+            </h2>
             <p className="text-xs text-stone-500 mt-0.5">
-              Hover your cursor over any Sanskrit word for Instant Meaning, Root, Grammar, and Sandhi Vigrah.
+              Hover or tap any Sanskrit word token to inspect morphological parsing, sandhi-vigraha, and dictionary citations.
             </p>
           </div>
 
@@ -136,7 +131,7 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>OCR Diff & ByT5</span>
+              <span>OCR Correction Review</span>
             </button>
           </div>
         </div>

@@ -127,10 +127,10 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
         <div>
           <h3 className="text-lg font-serif font-bold text-stone-900 flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-amber-600" />
-            General Document Ingest Studio
+            Corpus Ingestion Studio
           </h3>
           <p className="text-xs text-stone-500 mt-0.5">
-            Ingest any PDF, Image, or Shloka text into the 0ms persistent annotation cache.
+            Ingest Sanskrit manuscripts, scans, or text documents with automated morphological resolution.
           </p>
         </div>
       </div>
@@ -145,7 +145,7 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
               : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
           }`}
         >
-          Ground Truth Presets
+          Canonical Texts
         </button>
         <button
           onClick={() => setActiveTab('upload')}
@@ -215,14 +215,14 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
             className="group cursor-pointer rounded-xl border border-stone-200 p-4 transition-all hover:border-amber-400 hover:shadow-md bg-stone-50/60"
           >
             <div className="flex items-center justify-between text-xs text-amber-700 font-semibold mb-2">
-              <span>Ground Truth Image</span>
+              <span>Manuscript Scan</span>
               <span className="text-[10px] bg-amber-100 px-1.5 py-0.5 rounded">Ashtavakra Gita</span>
             </div>
             <h4 className="font-serif font-bold text-stone-900 text-sm">
               Chapter 1 (Verses 1.2 - 1.8)
             </h4>
             <p className="text-xs text-stone-500 mt-1">
-              Exact ground_truth.png scan benchmark with 7 verses, 70+ padas, full Sandhi Vigraha & root resolution.
+              High-resolution scan with full verse segmentation, Sandhi Vigraha, and morphological parsing.
             </p>
             <button className="mt-3 text-xs font-semibold text-amber-800 flex items-center gap-1 group-hover:translate-x-0.5 transition">
               Load & Inspect <ArrowRight className="w-3.5 h-3.5" />
@@ -234,14 +234,14 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
             className="group cursor-pointer rounded-xl border border-stone-200 p-4 transition-all hover:border-amber-400 hover:shadow-md bg-stone-50/60"
           >
             <div className="flex items-center justify-between text-xs text-amber-700 font-semibold mb-2">
-              <span>Grassmann Vedic</span>
+              <span>Vedic Samhita</span>
               <span className="text-[10px] bg-amber-100 px-1.5 py-0.5 rounded">Rigveda 1.1</span>
             </div>
             <h4 className="font-serif font-bold text-stone-900 text-sm">
               अग्नि सूक्त (Agni Sukta)
             </h4>
             <p className="text-xs text-stone-500 mt-1">
-              Tests Vedic vocabulary (ईळे, होतारं, रत्नधातमम्) against the 11,108-entry Grassmann Rig-Veda lexicon.
+              Rigveda Mandala 1, Hymn 1 with Vedic morphology and Grassmann Rig-Veda lexicon cross-referencing.
             </p>
             <button className="mt-3 text-xs font-semibold text-amber-800 flex items-center gap-1 group-hover:translate-x-0.5 transition">
               Ingest & Index <ArrowRight className="w-3.5 h-3.5" />
@@ -253,14 +253,14 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
             className="group cursor-pointer rounded-xl border border-stone-200 p-4 transition-all hover:border-amber-400 hover:shadow-md bg-stone-50/60"
           >
             <div className="flex items-center justify-between text-xs text-amber-700 font-semibold mb-2">
-              <span>Classical Sanskrit</span>
+              <span>Philosophical Smriti</span>
               <span className="text-[10px] bg-amber-100 px-1.5 py-0.5 rounded">Gita 2.47</span>
             </div>
             <h4 className="font-serif font-bold text-stone-900 text-sm">
               कर्मण्येवाधिकारस्ते
             </h4>
             <p className="text-xs text-stone-500 mt-1">
-              Complex sandhi resolution: कर्मणि + एव + अधिकारः + ते, compound and vibhakti indexing.
+              Bhagavad Gita 2.47 featuring compound sandhi decomposition, verbal roots, and case inflection analysis.
             </p>
             <button className="mt-3 text-xs font-semibold text-amber-800 flex items-center gap-1 group-hover:translate-x-0.5 transition">
               Ingest & Index <ArrowRight className="w-3.5 h-3.5" />
@@ -304,7 +304,7 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
             disabled={!file}
             className="w-full rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-medium py-2.5 text-xs transition disabled:opacity-50 shadow-xs"
           >
-            Start Sanskrit Ingestion Pipeline
+            Process & Index Document
           </button>
         </div>
       )}
@@ -339,7 +339,7 @@ export function IngestStudio({ onDocumentIndexed, onClose }: IngestStudioProps) 
             disabled={!pastedText.trim()}
             className="w-full rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-medium py-2.5 text-xs transition disabled:opacity-50 shadow-xs"
           >
-            Index Verses & Update Cache
+            Tokenize & Annotate Verses
           </button>
         </div>
       )}

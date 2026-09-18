@@ -6,7 +6,7 @@ import { DocumentReader } from '@/components/DocumentReader';
 import { IngestStudio } from '@/components/IngestStudio';
 import { CacheInspector } from '@/components/CacheInspector';
 import { IngestedDocument, DocumentRegistryItem } from '@/../lib/pipeline/types';
-import { Sparkles, BookOpen, Layers, CheckCircle2, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Sparkles, BookOpen, Layers, CheckCircle2, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   const [documents, setDocuments] = useState<DocumentRegistryItem[]>([]);
@@ -38,6 +38,7 @@ export default function Home() {
         setLoading(false);
       }
     }
+
     loadInitial();
   }, []);
 
@@ -49,10 +50,9 @@ export default function Home() {
       const data = await res.json();
       if (data.document) {
         setCurrentDoc(data.document);
-        setActiveView('reader');
       }
     } catch (e) {
-      console.error(e);
+      console.error('Error loading doc:', e);
     } finally {
       setLoading(false);
     }
@@ -65,8 +65,7 @@ export default function Home() {
       {
         id: newDoc.id,
         title: newDoc.title,
-        type: newDoc.type,
-        imageUrl: newDoc.imageUrl,
+        type: newDoc.type || 'text',
         versesCount: newDoc.versesCount,
         wordsCount: newDoc.wordsCount,
         status: 'indexed',
@@ -88,41 +87,12 @@ export default function Home() {
         setActiveView={setActiveView}
       />
 
-      {/* Hero Banner with Pipeline Specs */}
-      <section className="bg-white/80 border-b border-stone-200/80 px-4 py-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-stone-600">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="font-semibold text-stone-900 flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-amber-500 animate-ping" />
-              Incremental Architecture:
-            </span>
-            <span className="rounded-md bg-stone-100 px-2 py-0.5 border border-stone-200/60 font-mono text-[11px]">
-              0ms Latency Hover
-            </span>
-            <span className="rounded-md bg-stone-100 px-2 py-0.5 border border-stone-200/60 font-mono text-[11px]">
-              Apte AP90 (34,277)
-            </span>
-            <span className="rounded-md bg-stone-100 px-2 py-0.5 border border-stone-200/60 font-mono text-[11px]">
-              Grassmann Rigveda (11,108)
-            </span>
-            <span className="rounded-md bg-stone-100 px-2 py-0.5 border border-stone-200/60 font-mono text-[11px]">
-              Heritage Morphology
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2 text-stone-500 font-mono text-[11px]">
-            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Vercel Deployable (Self-Contained Next.js)</span>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
         {loading && (
           <div className="flex flex-col items-center justify-center min-h-[400px] text-stone-500">
             <div className="w-8 h-8 rounded-full border-2 border-amber-600 border-t-transparent animate-spin mb-3" />
-            <p className="text-sm font-serif">Loading Precomputed Sanskrit Cache...</p>
+            <p className="text-sm font-serif">Loading Sanskrit corpus...</p>
           </div>
         )}
 
@@ -153,10 +123,10 @@ export default function Home() {
       <footer className="border-t border-stone-200 bg-white/70 py-6 text-center text-xs text-stone-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div>
-            <strong>Sanskrit Live</strong> — Complete Incremental Shloka Annotation Pipeline
+            <strong>Sanskrit Digital Humanities</strong> — Interactive Linguistic Annotation Environment
           </div>
           <div>
-            Sources: CDSL Monier-Williams • CDSL Apte (1890) • Grassmann Rig-Veda • Sanskrit Heritage
+            Lexicon Sources: CDSL Monier-Williams • CDSL Apte (1890) • Grassmann Rig-Veda • Sanskrit Heritage
           </div>
         </div>
       </footer>

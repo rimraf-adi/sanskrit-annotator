@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Database, Search, Sparkles, CheckCircle2, Clock, BookOpen, Layers } from 'lucide-react';
+import { Database, Search, Layers } from 'lucide-react';
 import { WordAnnotation } from '@/../lib/pipeline/types';
 
 export function CacheInspector() {
@@ -10,7 +10,7 @@ export function CacheInspector() {
     apteHeadwords: 34277,
     grassmannRigvedicEntries: 11108,
     morphologyRuleCount: 15,
-    latency: '0ms (pre-indexed memory cache)'
+    latency: '< 1ms (in-memory lookup)'
   });
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [lookupResult, setLookupResult] = useState<WordAnnotation | null>(null);
@@ -45,17 +45,17 @@ export function CacheInspector() {
         <div>
           <h3 className="text-base font-bold text-stone-900 flex items-center gap-2">
             <Database className="w-4 h-4 text-amber-600" />
-            Incremental Persistent Cache & Lexicon Engine
+            Lexical Database & Corpus Index
           </h3>
           <p className="text-xs text-stone-500 mt-0.5">
-            Precomputed index guarantees 0ms hover latency with zero live computation.
+            Curated morphological rules and indexed headwords across classical and Vedic lexicons.
           </p>
         </div>
 
         <div className="flex items-center gap-2">
-          <span className="flex items-center gap-1 text-[11px] bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-full border border-emerald-200 font-medium">
-            <Clock className="w-3 h-3 text-emerald-600" />
-            Hover Latency: 0ms
+          <span className="flex items-center gap-1.5 text-[11px] bg-stone-100 text-stone-700 px-2.5 py-1 rounded-full border border-stone-200 font-medium">
+            <Layers className="w-3 h-3 text-stone-500" />
+            In-Memory Index
           </span>
         </div>
       </div>
@@ -63,19 +63,19 @@ export function CacheInspector() {
       {/* Metrics Row */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-4">
         <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80">
-          <div className="text-[11px] text-stone-500 font-medium">Cached Padas</div>
+          <div className="text-[11px] text-stone-500 font-medium">Annotated Tokens</div>
           <div className="text-xl font-bold text-stone-900 mt-0.5">{stats.totalCachedPadas}</div>
-          <div className="text-[10px] text-emerald-600 font-medium mt-0.5">100% Pre-indexed</div>
+          <div className="text-[10px] text-stone-500 font-medium mt-0.5">Pre-indexed Entries</div>
         </div>
 
         <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80">
-          <div className="text-[11px] text-stone-500 font-medium">Apte Dictionary</div>
+          <div className="text-[11px] text-stone-500 font-medium">Apte (AP90)</div>
           <div className="text-xl font-bold text-stone-900 mt-0.5">34,277</div>
           <div className="text-[10px] text-stone-500 mt-0.5">Exact CDSL Headwords</div>
         </div>
 
         <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80">
-          <div className="text-[11px] text-stone-500 font-medium">Grassmann Vedic</div>
+          <div className="text-[11px] text-stone-500 font-medium">Grassmann (Rigveda)</div>
           <div className="text-xl font-bold text-stone-900 mt-0.5">11,108</div>
           <div className="text-[10px] text-stone-500 mt-0.5">Rigveda Citations</div>
         </div>
@@ -94,7 +94,7 @@ export function CacheInspector() {
             <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Test lookup any Sanskrit word (e.g. मुक्तिमिच्छसि, अग्निमीळे, चिद्रूपं, शान्तो)..."
+              placeholder="Lookup headword or inflected token (e.g. मुक्तिमिच्छसि, अग्निम्, चिद्रूपं, शान्त)..."
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
               className="w-full pl-9 pr-3 py-2 text-xs rounded-xl border border-stone-300 focus:border-amber-500 focus:outline-hidden"
@@ -104,7 +104,7 @@ export function CacheInspector() {
             type="submit"
             className="px-4 py-2 bg-stone-900 hover:bg-stone-800 text-white rounded-xl text-xs font-medium transition"
           >
-            {isSearching ? 'Looking up...' : 'Inspect Word'}
+            {isSearching ? 'Looking up...' : 'Lookup Token'}
           </button>
         </form>
 

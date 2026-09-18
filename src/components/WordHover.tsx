@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { WordToken, WordAnnotation } from '@/../lib/pipeline/types';
-import { Sparkles, BookOpen, Layers, Split, Feather, CheckCircle2 } from 'lucide-react';
+import { Sparkles, BookOpen, Layers, Split, Feather } from 'lucide-react';
 
 interface WordHoverProps {
   wordToken: WordToken;
@@ -121,30 +121,23 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
           }}
           className="pointer-events-none rounded-xl bg-white/95 backdrop-blur-md p-4 shadow-2xl border border-amber-200/90 text-stone-800 text-xs font-sans ring-1 ring-amber-950/5 will-change-transform"
         >
-          {/* Header: Token & IAST + 0ms Cache Badge */}
-          <div className="flex items-start justify-between border-b border-stone-100 pb-2.5 mb-2.5">
-            <div>
-              <div className="flex items-baseline gap-2">
-                <span className="sanskrit-text text-xl font-bold text-amber-950">
-                  {wordToken.cleanedToken || wordToken.token}
+          {/* Header: Token & IAST */}
+          <div className="border-b border-stone-100 pb-2.5 mb-2.5">
+            <div className="flex items-baseline gap-2">
+              <span className="sanskrit-text text-xl font-bold text-amber-950">
+                {wordToken.cleanedToken || wordToken.token}
+              </span>
+              {annotation.iast && (
+                <span className="font-serif italic text-stone-500 text-sm">
+                  {annotation.iast}
                 </span>
-                {annotation.iast && (
-                  <span className="font-serif italic text-stone-500 text-sm">
-                    {annotation.iast}
-                  </span>
-                )}
-              </div>
-              {annotation.lemma && annotation.lemma !== wordToken.cleanedToken && (
-                <div className="text-[11px] text-stone-400 mt-0.5">
-                  मूल पद / Lemma: <span className="text-stone-600 font-semibold">{annotation.lemma}</span>
-                </div>
               )}
             </div>
-
-            <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700 border border-emerald-200/60 shadow-xs">
-              <CheckCircle2 className="w-3 h-3 text-emerald-600" />
-              0ms Cache
-            </span>
+            {annotation.lemma && annotation.lemma !== wordToken.cleanedToken && (
+              <div className="text-[11px] text-stone-400 mt-0.5">
+                मूल पद / Lemma: <span className="text-stone-600 font-semibold">{annotation.lemma}</span>
+              </div>
+            )}
           </div>
 
           <div className="space-y-2">
@@ -215,8 +208,7 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
 
           {/* Footer: Lexicon Source */}
           <div className="mt-2.5 pt-2 border-t border-stone-100 flex items-center justify-between text-[10px] text-stone-400">
-            <span>कोष: {annotation.source || 'Monier-Williams & Apte'}</span>
-            <span className="text-[9px] uppercase tracking-wider font-mono text-stone-400">Vercel Ready</span>
+            <span>कोष संदर्भ (Lexicon): <span className="text-stone-600 font-medium">{annotation.source || 'Monier-Williams & Apte'}</span></span>
           </div>
         </div>
       )}
