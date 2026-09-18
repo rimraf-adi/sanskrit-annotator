@@ -17,14 +17,53 @@
           "sandhiVigraha": "मुक्तिम् + इच्छसि",
           "root": "इष् (तुदादि)",
           "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
-          "meaning": "If you desire liberation"
+          "meaning": "If you desire liberation",
+          "padas": [
+            {
+              "pada": "मुक्तिम्",
+              "lemma": "मुक्ति",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "linga": "स्त्रीलिङ्ग",
+              "root": "मुच्",
+              "meaning": "Liberation, freedom from rebirth"
+            },
+            {
+              "pada": "इच्छसि",
+              "lemma": "इष्",
+              "type": "tinganta",
+              "lakara": "लट् (वर्तमान)",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "इष् (तुदादि)",
+              "meaning": "You desire, you seek"
+            }
+          ]
         },
         {
           "token": "चेत्तात",
           "sandhiVigraha": "चेत् + तात",
           "root": "-",
           "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
-          "meaning": "If, O dear one"
+          "meaning": "If, O dear one",
+          "padas": [
+            {
+              "pada": "चेत्",
+              "lemma": "चेत्",
+              "type": "avyaya",
+              "meaning": "If, in case that"
+            },
+            {
+              "pada": "तात",
+              "lemma": "तात",
+              "type": "subanta",
+              "vibhakti": "सम्बोधन",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "O beloved one, dear disciple"
+            }
+          ]
         },
         {
           "token": "विषयान्",
@@ -38,14 +77,68 @@
           "sandhiVigraha": "विषवत् + त्यज",
           "root": "त्यज् (भ्वादि)",
           "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
-          "meaning": "Renounce like poison"
+          "meaning": "Renounce like poison",
+          "padas": [
+            {
+              "pada": "विषवत्",
+              "lemma": "विष",
+              "type": "taddhita/avyaya",
+              "suffix": "वतिँ",
+              "meaning": "Like poison, as deadly venom"
+            },
+            {
+              "pada": "त्यज",
+              "lemma": "त्यज्",
+              "type": "tinganta",
+              "lakara": "लोट् (आज्ञार्थ)",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "त्यज् (भ्वादि)",
+              "meaning": "Abandon, cast away, renounce!"
+            }
+          ]
         },
         {
           "token": "क्षमार्जवदयातोषसत्यं",
           "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्",
           "root": "-",
           "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
-          "meaning": "Forgiveness, sincerity, compassion, contentment and truth"
+          "meaning": "Forgiveness, sincerity, compassion, contentment and truth",
+          "padas": [
+            {
+              "pada": "क्षमा",
+              "lemma": "क्षमा",
+              "type": "subanta",
+              "meaning": "Forgiveness, patience"
+            },
+            {
+              "pada": "आर्जव",
+              "lemma": "आर्जव",
+              "type": "subanta",
+              "meaning": "Sincerity, straightforwardness"
+            },
+            {
+              "pada": "दया",
+              "lemma": "दया",
+              "type": "subanta",
+              "meaning": "Compassion, mercy"
+            },
+            {
+              "pada": "तोष",
+              "lemma": "तोष",
+              "type": "subanta",
+              "meaning": "Contentment, joy"
+            },
+            {
+              "pada": "सत्यम्",
+              "lemma": "सत्य",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "linga": "नपुंसकलिङ्ग",
+              "meaning": "Truth, genuine reality"
+            }
+          ]
         },
         {
           "token": "पीयूषवद्",
@@ -71,7 +164,29 @@
             "meaning": "If you desire liberation",
             "root": "इष् (तुदादि)",
             "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
-            "sandhiVigraha": "मुक्तिम् + इच्छसि"
+            "sandhiVigraha": "मुक्तिम् + इच्छसि",
+            "padas": [
+              {
+                "pada": "मुक्तिम्",
+                "lemma": "मुक्ति",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "linga": "स्त्रीलिङ्ग",
+                "root": "मुच्",
+                "meaning": "Liberation, freedom from rebirth"
+              },
+              {
+                "pada": "इच्छसि",
+                "lemma": "इष्",
+                "type": "tinganta",
+                "lakara": "लट् (वर्तमान)",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "इष् (तुदादि)",
+                "meaning": "You desire, you seek"
+              }
+            ]
           }
         },
         {
@@ -82,7 +197,24 @@
             "meaning": "If, O dear one",
             "root": "-",
             "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
-            "sandhiVigraha": "चेत् + तात"
+            "sandhiVigraha": "चेत् + तात",
+            "padas": [
+              {
+                "pada": "चेत्",
+                "lemma": "चेत्",
+                "type": "avyaya",
+                "meaning": "If, in case that"
+              },
+              {
+                "pada": "तात",
+                "lemma": "तात",
+                "type": "subanta",
+                "vibhakti": "सम्बोधन",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "O beloved one, dear disciple"
+              }
+            ]
           }
         },
         {
@@ -104,7 +236,26 @@
             "meaning": "Renounce like poison",
             "root": "त्यज् (भ्वादि)",
             "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
-            "sandhiVigraha": "विषवत् + त्यज"
+            "sandhiVigraha": "विषवत् + त्यज",
+            "padas": [
+              {
+                "pada": "विषवत्",
+                "lemma": "विष",
+                "type": "taddhita/avyaya",
+                "suffix": "वतिँ",
+                "meaning": "Like poison, as deadly venom"
+              },
+              {
+                "pada": "त्यज",
+                "lemma": "त्यज्",
+                "type": "tinganta",
+                "lakara": "लोट् (आज्ञार्थ)",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "त्यज् (भ्वादि)",
+                "meaning": "Abandon, cast away, renounce!"
+              }
+            ]
           }
         },
         {
@@ -115,7 +266,42 @@
             "meaning": "Forgiveness, sincerity, compassion, contentment and truth",
             "root": "-",
             "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
-            "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्"
+            "sandhiVigraha": "क्षमा + आर्जव + दया + तोष + सत्यम्",
+            "padas": [
+              {
+                "pada": "क्षमा",
+                "lemma": "क्षमा",
+                "type": "subanta",
+                "meaning": "Forgiveness, patience"
+              },
+              {
+                "pada": "आर्जव",
+                "lemma": "आर्जव",
+                "type": "subanta",
+                "meaning": "Sincerity, straightforwardness"
+              },
+              {
+                "pada": "दया",
+                "lemma": "दया",
+                "type": "subanta",
+                "meaning": "Compassion, mercy"
+              },
+              {
+                "pada": "तोष",
+                "lemma": "तोष",
+                "type": "subanta",
+                "meaning": "Contentment, joy"
+              },
+              {
+                "pada": "सत्यम्",
+                "lemma": "सत्य",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "linga": "नपुंसकलिङ्ग",
+                "meaning": "Truth, genuine reality"
+              }
+            ]
           }
         },
         {
@@ -184,14 +370,63 @@
           "sandhiVigraha": "न + अग्निः + न",
           "root": "-",
           "grammar": "दीर्घ + विसर्ग-रेफ",
-          "meaning": "Nor fire"
+          "meaning": "Nor fire",
+          "padas": [
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Not"
+            },
+            {
+              "pada": "अग्निः",
+              "lemma": "अग्नि",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Fire element"
+            },
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Nor"
+            }
+          ]
         },
         {
           "token": "वायुर्द्यौर्न",
           "sandhiVigraha": "वायुः + द्यौः + न",
           "root": "-",
           "grammar": "विसर्ग-रेफ",
-          "meaning": "Nor air nor sky/space"
+          "meaning": "Nor air nor sky/space",
+          "padas": [
+            {
+              "pada": "वायुः",
+              "lemma": "वायु",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Air element"
+            },
+            {
+              "pada": "द्यौः",
+              "lemma": "दिव्",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "स्त्रीलिङ्ग",
+              "meaning": "Space/Ether/Sky"
+            },
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Nor"
+            }
+          ]
         },
         {
           "token": "वा",
@@ -219,7 +454,29 @@
           "sandhiVigraha": "साक्षिणम् + आत्मानम्",
           "root": "साक्षिन् / आत्मन्",
           "grammar": "द्वितीया एक. पुं.",
-          "meaning": "The Witness, the true Self"
+          "meaning": "The Witness, the true Self",
+          "padas": [
+            {
+              "pada": "साक्षिणम्",
+              "lemma": "साक्षिन्",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "root": "साक्षिन्",
+              "meaning": "The eternal Witness"
+            },
+            {
+              "pada": "आत्मानम्",
+              "lemma": "आत्मन्",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "root": "आत्मन्",
+              "meaning": "The true Self (Atman)"
+            }
+          ]
         },
         {
           "token": "चिद्रूपं",
@@ -296,7 +553,30 @@
             "meaning": "Nor fire",
             "root": "-",
             "grammar": "दीर्घ + विसर्ग-रेफ",
-            "sandhiVigraha": "न + अग्निः + न"
+            "sandhiVigraha": "न + अग्निः + न",
+            "padas": [
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Not"
+              },
+              {
+                "pada": "अग्निः",
+                "lemma": "अग्नि",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Fire element"
+              },
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Nor"
+              }
+            ]
           }
         },
         {
@@ -307,7 +587,33 @@
             "meaning": "Nor air nor sky/space",
             "root": "-",
             "grammar": "विसर्ग-रेफ",
-            "sandhiVigraha": "वायुः + द्यौः + न"
+            "sandhiVigraha": "वायुः + द्यौः + न",
+            "padas": [
+              {
+                "pada": "वायुः",
+                "lemma": "वायु",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Air element"
+              },
+              {
+                "pada": "द्यौः",
+                "lemma": "दिव्",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "स्त्रीलिङ्ग",
+                "meaning": "Space/Ether/Sky"
+              },
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Nor"
+              }
+            ]
           }
         },
         {
@@ -351,7 +657,29 @@
             "meaning": "The Witness, the true Self",
             "root": "साक्षिन् / आत्मन्",
             "grammar": "द्वितीया एक. पुं.",
-            "sandhiVigraha": "साक्षिणम् + आत्मानम्"
+            "sandhiVigraha": "साक्षिणम् + आत्मानम्",
+            "padas": [
+              {
+                "pada": "साक्षिणम्",
+                "lemma": "साक्षिन्",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "root": "साक्षिन्",
+                "meaning": "The eternal Witness"
+              },
+              {
+                "pada": "आत्मानम्",
+                "lemma": "आत्मन्",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "root": "आत्मन्",
+                "meaning": "The true Self (Atman)"
+              }
+            ]
           }
         },
         {
@@ -452,7 +780,21 @@
           "sandhiVigraha": "अधुना + एव",
           "root": "-",
           "grammar": "वृद्धि स्वर-सन्धि",
-          "meaning": "Right now, this very moment"
+          "meaning": "Right now, this very moment",
+          "padas": [
+            {
+              "pada": "अधुना",
+              "lemma": "अधुना",
+              "type": "avyaya",
+              "meaning": "Right now, this instant"
+            },
+            {
+              "pada": "एव",
+              "lemma": "एव",
+              "type": "avyaya",
+              "meaning": "Indeed, verily"
+            }
+          ]
         },
         {
           "token": "सुखी",
@@ -569,7 +911,21 @@
             "meaning": "Right now, this very moment",
             "root": "-",
             "grammar": "वृद्धि स्वर-सन्धि",
-            "sandhiVigraha": "अधुना + एव"
+            "sandhiVigraha": "अधुना + एव",
+            "padas": [
+              {
+                "pada": "अधुना",
+                "lemma": "अधुना",
+                "type": "avyaya",
+                "meaning": "Right now, this instant"
+              },
+              {
+                "pada": "एव",
+                "lemma": "एव",
+                "type": "avyaya",
+                "meaning": "Indeed, verily"
+              }
+            ]
           }
         },
         {
@@ -660,21 +1016,76 @@
           "sandhiVigraha": "न + आश्रमी",
           "root": "-",
           "grammar": "दीर्घ सन्धि",
-          "meaning": "Nor belong to any stage of life"
+          "meaning": "Nor belong to any stage of life",
+          "padas": [
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Not"
+            },
+            {
+              "pada": "आश्रमी",
+              "lemma": "आश्रमन्",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Belonging to any life-stage (Ashrama)"
+            }
+          ]
         },
         {
           "token": "नाक्षगोचरः",
           "sandhiVigraha": "न + अक्षगोचरः",
           "root": "-",
           "grammar": "दीर्घ सन्धि",
-          "meaning": "Nor perceptible to sense organs"
+          "meaning": "Nor perceptible to sense organs",
+          "padas": [
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Not"
+            },
+            {
+              "pada": "अक्षगोचरः",
+              "lemma": "अक्षगोचर",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Perceptible to sensory organs"
+            }
+          ]
         },
         {
           "token": "असङ्गोऽसि",
           "sandhiVigraha": "असङ्गः + असि",
           "root": "अस्",
           "grammar": "उत्व + पूर्वरूप सन्धि",
-          "meaning": "You are unattached"
+          "meaning": "You are unattached",
+          "padas": [
+            {
+              "pada": "असङ्गः",
+              "lemma": "असङ्ग",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Completely unattached, non-clinging"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "lakara": "लट् (वर्तमान)",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "अस् (अदादि)",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "निराकारो",
@@ -758,7 +1169,24 @@
             "meaning": "Nor belong to any stage of life",
             "root": "-",
             "grammar": "दीर्घ सन्धि",
-            "sandhiVigraha": "न + आश्रमी"
+            "sandhiVigraha": "न + आश्रमी",
+            "padas": [
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Not"
+              },
+              {
+                "pada": "आश्रमी",
+                "lemma": "आश्रमन्",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Belonging to any life-stage (Ashrama)"
+              }
+            ]
           }
         },
         {
@@ -769,7 +1197,24 @@
             "meaning": "Nor perceptible to sense organs",
             "root": "-",
             "grammar": "दीर्घ सन्धि",
-            "sandhiVigraha": "न + अक्षगोचरः"
+            "sandhiVigraha": "न + अक्षगोचरः",
+            "padas": [
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Not"
+              },
+              {
+                "pada": "अक्षगोचरः",
+                "lemma": "अक्षगोचर",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Perceptible to sensory organs"
+              }
+            ]
           }
         },
         {
@@ -780,7 +1225,28 @@
             "meaning": "You are unattached",
             "root": "अस्",
             "grammar": "उत्व + पूर्वरूप सन्धि",
-            "sandhiVigraha": "असङ्गः + असि"
+            "sandhiVigraha": "असङ्गः + असि",
+            "padas": [
+              {
+                "pada": "असङ्गः",
+                "lemma": "असङ्ग",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Completely unattached, non-clinging"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "lakara": "लट् (वर्तमान)",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "अस् (अदादि)",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -899,7 +1365,29 @@
           "sandhiVigraha": "कर्ता + असि",
           "root": "कृ / अस्",
           "grammar": "सवर्णदीर्घ सन्धि",
-          "meaning": "Are you the doer"
+          "meaning": "Are you the doer",
+          "padas": [
+            {
+              "pada": "कर्ता",
+              "lemma": "कर्तृ",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "root": "कृ",
+              "meaning": "The doer / agent"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "lakara": "लट्",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "अस्",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "न",
@@ -913,7 +1401,29 @@
           "sandhiVigraha": "भोक्ता + असि",
           "root": "भुज् / अस्",
           "grammar": "सवर्णदीर्घ सन्धि",
-          "meaning": "The enjoyer / experiencer"
+          "meaning": "The enjoyer / experiencer",
+          "padas": [
+            {
+              "pada": "भोक्ता",
+              "lemma": "भोक्तृ",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "root": "भुज्",
+              "meaning": "The experiencer / enjoyer"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "lakara": "लट्",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "अस्",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "मुक्त",
@@ -927,7 +1437,25 @@
           "sandhiVigraha": "एव + असि",
           "root": "अस्",
           "grammar": "दीर्घ सन्धि",
-          "meaning": "Truly you are"
+          "meaning": "Truly you are",
+          "padas": [
+            {
+              "pada": "एव",
+              "lemma": "एव",
+              "type": "avyaya",
+              "meaning": "Truly, alone, verily"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "lakara": "लट्",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "अस्",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "सर्वदा",
@@ -1034,7 +1562,29 @@
             "meaning": "Are you the doer",
             "root": "कृ / अस्",
             "grammar": "सवर्णदीर्घ सन्धि",
-            "sandhiVigraha": "कर्ता + असि"
+            "sandhiVigraha": "कर्ता + असि",
+            "padas": [
+              {
+                "pada": "कर्ता",
+                "lemma": "कर्तृ",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "root": "कृ",
+                "meaning": "The doer / agent"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "lakara": "लट्",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "अस्",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -1056,7 +1606,29 @@
             "meaning": "The enjoyer / experiencer",
             "root": "भुज् / अस्",
             "grammar": "सवर्णदीर्घ सन्धि",
-            "sandhiVigraha": "भोक्ता + असि"
+            "sandhiVigraha": "भोक्ता + असि",
+            "padas": [
+              {
+                "pada": "भोक्ता",
+                "lemma": "भोक्तृ",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "root": "भुज्",
+                "meaning": "The experiencer / enjoyer"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "lakara": "लट्",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "अस्",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -1078,7 +1650,25 @@
             "meaning": "Truly you are",
             "root": "अस्",
             "grammar": "दीर्घ सन्धि",
-            "sandhiVigraha": "एव + असि"
+            "sandhiVigraha": "एव + असि",
+            "padas": [
+              {
+                "pada": "एव",
+                "lemma": "एव",
+                "type": "avyaya",
+                "meaning": "Truly, alone, verily"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "lakara": "लट्",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "अस्",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -1115,7 +1705,25 @@
           "sandhiVigraha": "द्रष्टा + असि",
           "root": "दृश् / अस्",
           "grammar": "सवर्णदीर्घ सन्धि",
-          "meaning": "Witness/Seer are you"
+          "meaning": "Witness/Seer are you",
+          "padas": [
+            {
+              "pada": "द्रष्टा",
+              "lemma": "द्रष्टृ",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "root": "दृश्",
+              "meaning": "The sole Seer/Perceiver"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "सर्वस्य",
@@ -1129,7 +1737,24 @@
           "sandhiVigraha": "मुक्तप्रायः + असि",
           "root": "अस्",
           "grammar": "उत्व + पूर्वरूप सन्धि",
-          "meaning": "Already virtually liberated"
+          "meaning": "Already virtually liberated",
+          "padas": [
+            {
+              "pada": "मुक्तप्रायः",
+              "lemma": "मुक्तप्राय",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "Practically / naturally already free"
+            },
+            {
+              "pada": "असि",
+              "lemma": "अस्",
+              "type": "tinganta",
+              "meaning": "You are"
+            }
+          ]
         },
         {
           "token": "सर्वदा",
@@ -1143,7 +1768,24 @@
           "sandhiVigraha": "अयम् + एव",
           "root": "-",
           "grammar": "संयोग",
-          "meaning": "This indeed"
+          "meaning": "This indeed",
+          "padas": [
+            {
+              "pada": "अयम्",
+              "lemma": "इदम्",
+              "type": "subanta",
+              "vibhakti": "प्रथमा",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "This alone"
+            },
+            {
+              "pada": "एव",
+              "lemma": "एव",
+              "type": "avyaya",
+              "meaning": "Indeed, solely"
+            }
+          ]
         },
         {
           "token": "हि",
@@ -1178,7 +1820,28 @@
           "sandhiVigraha": "पश्यसि + इतरम्",
           "root": "दृश्",
           "grammar": "सवर्णदीर्घ सन्धि",
-          "meaning": "You perceive as another / object"
+          "meaning": "You perceive as another / object",
+          "padas": [
+            {
+              "pada": "पश्यसि",
+              "lemma": "दृश्",
+              "type": "tinganta",
+              "lakara": "लट्",
+              "purusha": "मध्यम पुरुष",
+              "vacana": "एकवचन",
+              "root": "दृश् (भ्वादि)",
+              "meaning": "You behold, you perceive"
+            },
+            {
+              "pada": "इतरम्",
+              "lemma": "इतर",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "linga": "पुंल्लिङ्ग",
+              "meaning": "As other than yourself (as an object)"
+            }
+          ]
         }
       ],
       "tokens": [
@@ -1201,7 +1864,25 @@
             "meaning": "Witness/Seer are you",
             "root": "दृश् / अस्",
             "grammar": "सवर्णदीर्घ सन्धि",
-            "sandhiVigraha": "द्रष्टा + असि"
+            "sandhiVigraha": "द्रष्टा + असि",
+            "padas": [
+              {
+                "pada": "द्रष्टा",
+                "lemma": "द्रष्टृ",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "root": "दृश्",
+                "meaning": "The sole Seer/Perceiver"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -1223,7 +1904,24 @@
             "meaning": "Already virtually liberated",
             "root": "अस्",
             "grammar": "उत्व + पूर्वरूप सन्धि",
-            "sandhiVigraha": "मुक्तप्रायः + असि"
+            "sandhiVigraha": "मुक्तप्रायः + असि",
+            "padas": [
+              {
+                "pada": "मुक्तप्रायः",
+                "lemma": "मुक्तप्राय",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "Practically / naturally already free"
+              },
+              {
+                "pada": "असि",
+                "lemma": "अस्",
+                "type": "tinganta",
+                "meaning": "You are"
+              }
+            ]
           }
         },
         {
@@ -1245,7 +1943,24 @@
             "meaning": "This indeed",
             "root": "-",
             "grammar": "संयोग",
-            "sandhiVigraha": "अयम् + एव"
+            "sandhiVigraha": "अयम् + एव",
+            "padas": [
+              {
+                "pada": "अयम्",
+                "lemma": "इदम्",
+                "type": "subanta",
+                "vibhakti": "प्रथमा",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "This alone"
+              },
+              {
+                "pada": "एव",
+                "lemma": "एव",
+                "type": "avyaya",
+                "meaning": "Indeed, solely"
+              }
+            ]
           }
         },
         {
@@ -1300,7 +2015,28 @@
             "meaning": "You perceive as another / object",
             "root": "दृश्",
             "grammar": "सवर्णदीर्घ सन्धि",
-            "sandhiVigraha": "पश्यसि + इतरम्"
+            "sandhiVigraha": "पश्यसि + इतरम्",
+            "padas": [
+              {
+                "pada": "पश्यसि",
+                "lemma": "दृश्",
+                "type": "tinganta",
+                "lakara": "लट्",
+                "purusha": "मध्यम पुरुष",
+                "vacana": "एकवचन",
+                "root": "दृश् (भ्वादि)",
+                "meaning": "You behold, you perceive"
+              },
+              {
+                "pada": "इतरम्",
+                "lemma": "इतर",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "linga": "पुंल्लिङ्ग",
+                "meaning": "As other than yourself (as an object)"
+              }
+            ]
           }
         }
       ]
@@ -1326,28 +2062,105 @@
           "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः",
           "root": "कृ / दंश्",
           "grammar": "समास + सन्धि",
-          "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism"
+          "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism",
+          "padas": [
+            {
+              "pada": "कर्ता",
+              "lemma": "कर्तृ",
+              "type": "subanta",
+              "meaning": "The doer"
+            },
+            {
+              "pada": "इति",
+              "lemma": "इति",
+              "type": "avyaya",
+              "meaning": "Thus"
+            },
+            {
+              "pada": "अहंमान",
+              "lemma": "अहंमान",
+              "type": "subanta",
+              "meaning": "Egoism, pride of agency"
+            },
+            {
+              "pada": "महाकृष्णाहि",
+              "lemma": "महाकृष्णाहि",
+              "type": "samasa",
+              "meaning": "Great black venomous serpent"
+            },
+            {
+              "pada": "दंशितः",
+              "lemma": "दंशित",
+              "type": "krdanta",
+              "root": "दंश्",
+              "meaning": "Bitten, struck by fangs"
+            }
+          ]
         },
         {
           "token": "नाहं",
           "sandhiVigraha": "न + अहम्",
           "root": "-",
           "grammar": "दीर्घ स्वर-सन्धि",
-          "meaning": "I am not"
+          "meaning": "I am not",
+          "padas": [
+            {
+              "pada": "न",
+              "lemma": "न",
+              "type": "avyaya",
+              "meaning": "Not"
+            },
+            {
+              "pada": "अहम्",
+              "lemma": "अस्मद्",
+              "type": "subanta",
+              "meaning": "I"
+            }
+          ]
         },
         {
           "token": "कर्तेति",
           "sandhiVigraha": "कर्ता + इति",
           "root": "कृ",
           "grammar": "गुण स्वर-सन्धि",
-          "meaning": "The doer"
+          "meaning": "The doer",
+          "padas": [
+            {
+              "pada": "कर्ता",
+              "lemma": "कर्तृ",
+              "type": "subanta",
+              "meaning": "Doer"
+            },
+            {
+              "pada": "इति",
+              "lemma": "इति",
+              "type": "avyaya",
+              "meaning": "Thus"
+            }
+          ]
         },
         {
           "token": "विश्वासामृतं",
           "sandhiVigraha": "विश्वास + अमृतम्",
           "root": "-",
           "grammar": "दीर्घ सन्धि / रूपक समास",
-          "meaning": "The nectar of faith/conviction"
+          "meaning": "The nectar of faith/conviction",
+          "padas": [
+            {
+              "pada": "विश्वास",
+              "lemma": "विश्वास",
+              "type": "subanta",
+              "meaning": "Faith, conviction"
+            },
+            {
+              "pada": "अमृतम्",
+              "lemma": "अमृत",
+              "type": "subanta",
+              "vibhakti": "द्वितीया",
+              "vacana": "एकवचन",
+              "meaning": "The nectar of immortality"
+            }
+          ]
         },
         {
           "token": "पीत्वा",
@@ -1391,7 +2204,40 @@
             "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism",
             "root": "कृ / दंश्",
             "grammar": "समास + सन्धि",
-            "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः"
+            "sandhiVigraha": "कर्ता + इति + अहंमान + महा-कृष्ण-अहि + दंशितः",
+            "padas": [
+              {
+                "pada": "कर्ता",
+                "lemma": "कर्तृ",
+                "type": "subanta",
+                "meaning": "The doer"
+              },
+              {
+                "pada": "इति",
+                "lemma": "इति",
+                "type": "avyaya",
+                "meaning": "Thus"
+              },
+              {
+                "pada": "अहंमान",
+                "lemma": "अहंमान",
+                "type": "subanta",
+                "meaning": "Egoism, pride of agency"
+              },
+              {
+                "pada": "महाकृष्णाहि",
+                "lemma": "महाकृष्णाहि",
+                "type": "samasa",
+                "meaning": "Great black venomous serpent"
+              },
+              {
+                "pada": "दंशितः",
+                "lemma": "दंशित",
+                "type": "krdanta",
+                "root": "दंश्",
+                "meaning": "Bitten, struck by fangs"
+              }
+            ]
           }
         },
         {
@@ -1402,7 +2248,21 @@
             "meaning": "I am not",
             "root": "-",
             "grammar": "दीर्घ स्वर-सन्धि",
-            "sandhiVigraha": "न + अहम्"
+            "sandhiVigraha": "न + अहम्",
+            "padas": [
+              {
+                "pada": "न",
+                "lemma": "न",
+                "type": "avyaya",
+                "meaning": "Not"
+              },
+              {
+                "pada": "अहम्",
+                "lemma": "अस्मद्",
+                "type": "subanta",
+                "meaning": "I"
+              }
+            ]
           }
         },
         {
@@ -1413,7 +2273,21 @@
             "meaning": "The doer",
             "root": "कृ",
             "grammar": "गुण स्वर-सन्धि",
-            "sandhiVigraha": "कर्ता + इति"
+            "sandhiVigraha": "कर्ता + इति",
+            "padas": [
+              {
+                "pada": "कर्ता",
+                "lemma": "कर्तृ",
+                "type": "subanta",
+                "meaning": "Doer"
+              },
+              {
+                "pada": "इति",
+                "lemma": "इति",
+                "type": "avyaya",
+                "meaning": "Thus"
+              }
+            ]
           }
         },
         {
@@ -1424,7 +2298,23 @@
             "meaning": "The nectar of faith/conviction",
             "root": "-",
             "grammar": "दीर्घ सन्धि / रूपक समास",
-            "sandhiVigraha": "विश्वास + अमृतम्"
+            "sandhiVigraha": "विश्वास + अमृतम्",
+            "padas": [
+              {
+                "pada": "विश्वास",
+                "lemma": "विश्वास",
+                "type": "subanta",
+                "meaning": "Faith, conviction"
+              },
+              {
+                "pada": "अमृतम्",
+                "lemma": "अमृत",
+                "type": "subanta",
+                "vibhakti": "द्वितीया",
+                "vacana": "एकवचन",
+                "meaning": "The nectar of immortality"
+              }
+            ]
           }
         },
         {

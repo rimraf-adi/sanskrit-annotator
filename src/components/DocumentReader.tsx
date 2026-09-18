@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { IngestedDocument, ShlokaVerse } from '@/../lib/pipeline/types';
+import { IngestedDocument, ShlokaVerse, WordToken } from '@/../lib/pipeline/types';
 import { WordHover } from './WordHover';
 import {
   ZoomIn,
@@ -15,7 +15,8 @@ import {
   Layers,
   ArrowRight,
   Eye,
-  Info
+  Info,
+  Split
 } from 'lucide-react';
 
 interface DocumentReaderProps {
@@ -27,6 +28,7 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
   const [zoom, setZoom] = useState<number>(100);
   const [showOcrDiff, setShowOcrDiff] = useState<boolean>(false);
   const [copiedVerse, setCopiedVerse] = useState<string | null>(null);
+  const [viewMode, setViewMode] = useState<'samhita' | 'padaccheda'>('samhita');
 
   const handleCopy = (verse: ShlokaVerse) => {
     const text = verse.lines.join('\n');
@@ -110,7 +112,7 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
 
       {/* Right Column: Interactive Shloka Verses */}
       <div className="w-full lg:w-1/2 flex flex-col">
-        {/* Header with Title & OCR Diff Toggle */}
+        {/* Header with Title & Controls */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-stone-200">
           <div>
             <h2 className="text-xl font-serif font-bold text-stone-900 tracking-tight">
@@ -121,17 +123,42 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
             </p>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            {/* View Mode Toggle: Samhita vs Padaccheda */}
+            <div className="flex items-center bg-stone-200/80 p-0.5 rounded-lg border border-stone-300 text-xs">
+              <button
+                onClick={() => setViewMode('samhita')}
+                className={`px-2.5 py-1 rounded-md font-medium transition ${
+                  viewMode === 'samhita'
+                    ? 'bg-white text-stone-900 shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900'
+                }`}
+              >
+                संहिता (Samhitā)
+              </button>
+              <button
+                onClick={() => setViewMode('padaccheda')}
+                className={`px-2.5 py-1 rounded-md font-medium transition flex items-center gap-1 ${
+                  viewMode === 'padaccheda'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900'
+                }`}
+              >
+                <Split className="w-3 h-3" />
+                <span>पदच्छेद (Word Split)</span>
+              </button>
+            </div>
+
             <button
               onClick={() => setShowOcrDiff(!showOcrDiff)}
-              className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition ${
+              className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition ${
                 showOcrDiff
                   ? 'bg-amber-600 text-white shadow-xs'
                   : 'bg-white text-stone-700 border border-stone-300 hover:bg-stone-50'
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>OCR Correction Review</span>
+              <span>OCR Diff</span>
             </button>
           </div>
         </div>
@@ -186,8 +213,15 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
               {/* Sanskrit Lines with Hoverable Tokens */}
               <div className="sanskrit-text text-xl md:text-2xl text-stone-900 leading-loose">
                 {verse.lines.map((line, lIdx) => {
-                  // Find tokens matching this line, supporting both tokens and words structure
-                  const rawTokens = verse.tokens || (verse as any).words?.map((w: any) => ({
+                  // Clean trailing danda for token splitting
+                  const dandaMatch = line.match(/(?:॥[^॥]*॥|॥|।)\s*$/);
+                  const dandaText = dandaMatch ? dandaMatch[0].trim() : (lIdx === verse.lines.length - 1 ? `॥ १-${verse.verseNumber} ॥` : '।');
+                  const cleanLineText = line.replace(/(?:॥[^॥]*॥|॥|।)\s*$/, '').trim();
+
+                  // Extract raw words in line order
+                  const words = cleanLineText.split(/\s+/).filter(Boolean);
+
+                  const rawTokens: WordToken[] = verse.tokens || (verse as any).words?.map((w: any) => ({
                     token: w.token,
                     cleanedToken: w.token.replace(/[।॥,;\.\s]/g, '').trim(),
                     annotation: {
@@ -195,27 +229,86 @@ export function DocumentReader({ document, onOpenIngestModal }: DocumentReaderPr
                       meaning: w.meaning,
                       root: w.root,
                       grammar: w.grammar,
-                      sandhiVigraha: w.sandhiVigraha
+                      sandhiVigraha: w.sandhiVigraha,
+                      padas: w.padas
                     }
                   })) || [];
 
-                  const lineTokens = rawTokens.filter((tok: any) =>
-                    line.includes(tok.token) || line.includes(tok.cleanedToken)
-                  );
+                  // Map each word in the line to its token precisely
+                  const resolvedLineTokens: Array<{ token: WordToken; constituentPadas?: any[] }> = words.map(w => {
+                    const cleanW = w.replace(/[।॥,;\.\s]/g, '').trim();
+                    const found = rawTokens.find(t =>
+                      t.token === w ||
+                      t.cleanedToken === cleanW ||
+                      t.token.replace(/[।॥,;\.\s]/g, '').trim() === cleanW
+                    );
+
+                    const tok: WordToken = found || {
+                      token: w,
+                      cleanedToken: cleanW,
+                      annotation: {
+                        token: w,
+                        meaning: 'संस्कृत पद',
+                        grammar: 'सुबन्त/तिङन्त पद'
+                      }
+                    };
+
+                    return {
+                      token: tok,
+                      constituentPadas: tok.annotation?.padas
+                    };
+                  });
 
                   return (
                     <div key={lIdx} className="my-1.5 flex flex-wrap items-baseline gap-x-2">
-                      {lineTokens.length > 0 ? (
-                        lineTokens.map((tok: any, tIdx: number) => (
+                      {resolvedLineTokens.map((item, tIdx) => {
+                        const tok = item.token;
+                        const padas = item.constituentPadas;
+
+                        // In padaccheda mode, if this word is a compound with multiple constituent words,
+                        // render each constituent word as an independent hoverable token!
+                        if (viewMode === 'padaccheda' && padas && padas.length > 1) {
+                          return (
+                            <span key={`${tok.token}_${tIdx}`} className="inline-flex items-baseline gap-x-1.5 bg-amber-50/70 rounded-md px-1.5 py-0.5 border border-amber-200/60 shadow-xs">
+                              {padas.map((p: any, pIdx: number) => {
+                                const subToken: WordToken = {
+                                  token: p.pada,
+                                  cleanedToken: p.pada,
+                                  annotation: {
+                                    token: p.pada,
+                                    lemma: p.lemma || p.pada,
+                                    root: p.root,
+                                    grammar: p.grammar || (p.vibhakti ? `${p.vibhakti} ${p.vacana || ''} ${p.linga || ''}`.trim() : (p.lakara || p.type || 'पद')),
+                                    meaning: p.meaning,
+                                    source: 'पदच्छेद (Sanskrit Heritage Grammar)'
+                                  }
+                                };
+
+                                return (
+                                  <React.Fragment key={`${p.pada}_${pIdx}`}>
+                                    <WordHover wordToken={subToken}>
+                                      <span className="font-semibold text-amber-950">{p.pada}</span>
+                                    </WordHover>
+                                    {pIdx < padas.length - 1 && (
+                                      <span className="text-amber-400/80 font-serif text-sm select-none">•</span>
+                                    )}
+                                  </React.Fragment>
+                                );
+                              })}
+                            </span>
+                          );
+                        }
+
+                        // Samhita mode (or single word)
+                        return (
                           <WordHover key={`${tok.token}_${tIdx}`} wordToken={tok}>
                             <span>{tok.token}</span>
                           </WordHover>
-                        ))
-                      ) : (
-                        <span>{line}</span>
-                      )}
-                      <span className="text-stone-400 font-serif font-bold text-lg select-none">
-                        {lIdx === verse.lines.length - 1 ? `॥ १-${verse.verseNumber} ॥` : '।'}
+                        );
+                      })}
+
+                      <span className="text-stone-400 font-serif font-bold text-lg select-none ml-1">
+                        {dandaText}
                       </span>
                     </div>
                   );

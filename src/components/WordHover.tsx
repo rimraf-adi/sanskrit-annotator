@@ -31,8 +31,8 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
   const updatePosition = () => {
     if (!triggerRef.current) return;
     const rect = triggerRef.current.getBoundingClientRect();
-    const tooltipWidth = 360;
-    const tooltipHeight = 220;
+    const tooltipWidth = 380;
+    const tooltipHeight = 280;
 
     let left = rect.left + rect.width / 2 - tooltipWidth / 2;
     if (left < 16) left = 16;
@@ -41,10 +41,12 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
     }
 
     const spaceAbove = rect.top;
-    const placeAbove = spaceAbove > tooltipHeight + 12;
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const placeAbove = spaceAbove > tooltipHeight + 16 && spaceAbove > spaceBelow;
+
     const top = placeAbove
-      ? rect.top + window.scrollY - 8
-      : rect.bottom + window.scrollY + 8;
+      ? Math.max(16, rect.top - 8)
+      : Math.min(window.innerHeight - 60, rect.bottom + 8);
 
     setCoords({ top, left, placeAbove });
   };
@@ -106,10 +108,12 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
           role="tooltip"
           style={{
             position: 'fixed',
-            top: coords.placeAbove ? 'auto' : `${coords.top - window.scrollY}px`,
-            bottom: coords.placeAbove ? `${window.innerHeight - (coords.top - window.scrollY)}px` : 'auto',
+            top: coords.placeAbove ? 'auto' : `${coords.top}px`,
+            bottom: coords.placeAbove ? `${window.innerHeight - coords.top}px` : 'auto',
             left: `${coords.left}px`,
-            width: '360px',
+            width: '380px',
+            maxHeight: '82vh',
+            overflowY: 'auto',
             zIndex: 9999,
             transition: 'opacity 140ms cubic-bezier(0.16, 1, 0.3, 1), transform 140ms cubic-bezier(0.16, 1, 0.3, 1)',
             transform: isVisible
@@ -143,17 +147,48 @@ export function WordHover({ wordToken, children }: WordHoverProps) {
           <div className="space-y-2">
             {/* 1. Sandhi Vigraha (सन्धि-विग्रह) */}
             {annotation.sandhiVigraha && (
-              <div className="rounded-lg bg-amber-50/70 p-2 border border-amber-100/80">
-                <div className="flex items-center gap-1.5 text-[11px] font-semibold text-amber-900 mb-1">
-                  <Split className="w-3.5 h-3.5 text-amber-700" />
-                  <span>सन्धि-विग्रह (Sandhi Split)</span>
+              <div className="rounded-lg bg-amber-50/80 p-2.5 border border-amber-200/90">
+                <div className="flex items-center justify-between text-[11px] font-semibold text-amber-900 mb-1">
+                  <div className="flex items-center gap-1.5">
+                    <Split className="w-3.5 h-3.5 text-amber-700" />
+                    <span>सन्धि / समास विच्छेद (Sandhi Split)</span>
+                  </div>
+                  {annotation.padas && annotation.padas.length > 1 && (
+                    <span className="text-[10px] text-amber-800 bg-amber-200/60 px-1.5 py-0.5 rounded font-mono font-medium">
+                      {annotation.padas.length} घटक पदानि
+                    </span>
+                  )}
                 </div>
-                <div className="font-medium text-amber-950 text-xs tracking-wide">
+                <div className="font-semibold text-amber-950 text-xs tracking-wide">
                   {annotation.sandhiVigraha}
                 </div>
                 {annotation.sandhiRules && annotation.sandhiRules.length > 0 && (
                   <div className="text-[10px] text-amber-700/80 mt-1 italic">
                     नियम: {annotation.sandhiRules.join(', ')}
+                  </div>
+                )}
+
+                {/* Individual Constituent Words Breakdown */}
+                {annotation.padas && annotation.padas.length > 1 && (
+                  <div className="mt-2 pt-2 border-t border-amber-200/70 space-y-1">
+                    <div className="text-[10px] uppercase font-bold text-amber-900 tracking-wider">
+                      घटक पदानि (Constituent Words Caught):
+                    </div>
+                    <div className="space-y-1 max-h-[140px] overflow-y-auto pr-0.5">
+                      {annotation.padas.map((p, pIdx) => (
+                        <div key={pIdx} className="bg-white/95 p-1.5 rounded border border-amber-200/60 text-[11px]">
+                          <div className="flex items-baseline justify-between gap-1">
+                            <span className="font-bold text-amber-950 font-serif">{p.pada}</span>
+                            <span className="text-[9px] text-amber-800/80 font-mono">
+                              {p.vibhakti || p.lakara || p.type || ''}
+                            </span>
+                          </div>
+                          <div className="text-stone-700 text-[10px] mt-0.5 leading-snug">
+                            {p.meaning}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>

@@ -1,3 +1,17 @@
+export interface ConstituentPada {
+  pada: string;
+  lemma?: string;
+  root?: string;
+  type?: string;
+  vibhakti?: string;
+  vacana?: string;
+  linga?: string;
+  lakara?: string;
+  purusha?: string;
+  meaning: string;
+  grammar?: string;
+}
+
 export interface WordAnnotation {
   token: string;
   lemma?: string;
@@ -16,8 +30,10 @@ export interface WordAnnotation {
   purusha?: string;
   sandhiVigraha?: string;
   sandhiRules?: string[];
+  padas?: ConstituentPada[];
   vedicCitation?: string;
   source?: string;
+  verse?: string;
 }
 
 export interface WordToken {

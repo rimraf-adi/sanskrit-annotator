@@ -6,7 +6,29 @@
     "grammar": "मुक्ति (द्वितीया एक.) + इच्छसि (लट् म.पु. एक.)",
     "meaning": "If you desire liberation",
     "verse": "1-2",
-    "source": "Ashtavakra Gita 1.1-2"
+    "source": "Ashtavakra Gita 1.1-2",
+    "padas": [
+      {
+        "pada": "मुक्तिम्",
+        "lemma": "मुक्ति",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "root": "मुच्",
+        "meaning": "Liberation, freedom from rebirth"
+      },
+      {
+        "pada": "इच्छसि",
+        "lemma": "इष्",
+        "type": "tinganta",
+        "lakara": "लट् (वर्तमान)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "इष् (तुदादि)",
+        "meaning": "You desire, you seek"
+      }
+    ]
   },
   "चेत्तात": {
     "token": "चेत्तात",
@@ -15,7 +37,24 @@
     "grammar": "चेत् (अव्यय) + तात (सम्बोधन एक.)",
     "meaning": "If, O dear one",
     "verse": "1-2",
-    "source": "Ashtavakra Gita 1.1-2"
+    "source": "Ashtavakra Gita 1.1-2",
+    "padas": [
+      {
+        "pada": "चेत्",
+        "lemma": "चेत्",
+        "type": "avyaya",
+        "meaning": "If, in case that"
+      },
+      {
+        "pada": "तात",
+        "lemma": "तात",
+        "type": "subanta",
+        "vibhakti": "सम्बोधन",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "O beloved one, dear disciple"
+      }
+    ]
   },
   "विषयान्": {
     "token": "विषयान्",
@@ -33,7 +72,26 @@
     "grammar": "तद्धित (विषस्य इव) + त्यज (लोट् म.पु. एक.)",
     "meaning": "Renounce like poison",
     "verse": "1-2",
-    "source": "Ashtavakra Gita 1.1-2"
+    "source": "Ashtavakra Gita 1.1-2",
+    "padas": [
+      {
+        "pada": "विषवत्",
+        "lemma": "विष",
+        "type": "taddhita/avyaya",
+        "suffix": "वतिँ",
+        "meaning": "Like poison, as deadly venom"
+      },
+      {
+        "pada": "त्यज",
+        "lemma": "त्यज्",
+        "type": "tinganta",
+        "lakara": "लोट् (आज्ञार्थ)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "त्यज् (भ्वादि)",
+        "meaning": "Abandon, cast away, renounce!"
+      }
+    ]
   },
   "क्षमार्जवदयातोषसत्यं": {
     "token": "क्षमार्जवदयातोषसत्यं",
@@ -42,7 +100,42 @@
     "grammar": "समाहार द्वन्द्व समास (द्वितीया एक.)",
     "meaning": "Forgiveness, sincerity, compassion, contentment and truth",
     "verse": "1-2",
-    "source": "Ashtavakra Gita 1.1-2"
+    "source": "Ashtavakra Gita 1.1-2",
+    "padas": [
+      {
+        "pada": "क्षमा",
+        "lemma": "क्षमा",
+        "type": "subanta",
+        "meaning": "Forgiveness, patience"
+      },
+      {
+        "pada": "आर्जव",
+        "lemma": "आर्जव",
+        "type": "subanta",
+        "meaning": "Sincerity, straightforwardness"
+      },
+      {
+        "pada": "दया",
+        "lemma": "दया",
+        "type": "subanta",
+        "meaning": "Compassion, mercy"
+      },
+      {
+        "pada": "तोष",
+        "lemma": "तोष",
+        "type": "subanta",
+        "meaning": "Contentment, joy"
+      },
+      {
+        "pada": "सत्यम्",
+        "lemma": "सत्य",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "नपुंसकलिङ्ग",
+        "meaning": "Truth, genuine reality"
+      }
+    ]
   },
   "पीयूषवद्": {
     "token": "पीयूषवद्",
@@ -96,7 +189,30 @@
     "grammar": "दीर्घ + विसर्ग-रेफ",
     "meaning": "Nor fire",
     "verse": "1-3",
-    "source": "Ashtavakra Gita 1.1-3"
+    "source": "Ashtavakra Gita 1.1-3",
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अग्निः",
+        "lemma": "अग्नि",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Fire element"
+      },
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Nor"
+      }
+    ]
   },
   "वायुर्द्यौर्न": {
     "token": "वायुर्द्यौर्न",
@@ -105,7 +221,33 @@
     "grammar": "विसर्ग-रेफ",
     "meaning": "Nor air nor sky/space",
     "verse": "1-3",
-    "source": "Ashtavakra Gita 1.1-3"
+    "source": "Ashtavakra Gita 1.1-3",
+    "padas": [
+      {
+        "pada": "वायुः",
+        "lemma": "वायु",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Air element"
+      },
+      {
+        "pada": "द्यौः",
+        "lemma": "दिव्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "स्त्रीलिङ्ग",
+        "meaning": "Space/Ether/Sky"
+      },
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Nor"
+      }
+    ]
   },
   "वा": {
     "token": "वा",
@@ -141,7 +283,29 @@
     "grammar": "द्वितीया एक. पुं.",
     "meaning": "The Witness, the true Self",
     "verse": "1-3",
-    "source": "Ashtavakra Gita 1.1-3"
+    "source": "Ashtavakra Gita 1.1-3",
+    "padas": [
+      {
+        "pada": "साक्षिणम्",
+        "lemma": "साक्षिन्",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "साक्षिन्",
+        "meaning": "The eternal Witness"
+      },
+      {
+        "pada": "आत्मानम्",
+        "lemma": "आत्मन्",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "आत्मन्",
+        "meaning": "The true Self (Atman)"
+      }
+    ]
   },
   "चिद्रूपं": {
     "token": "चिद्रूपं",
@@ -240,7 +404,21 @@
     "grammar": "वृद्धि स्वर-सन्धि",
     "meaning": "Right now, this very moment",
     "verse": "1-4",
-    "source": "Ashtavakra Gita 1.1-4"
+    "source": "Ashtavakra Gita 1.1-4",
+    "padas": [
+      {
+        "pada": "अधुना",
+        "lemma": "अधुना",
+        "type": "avyaya",
+        "meaning": "Right now, this instant"
+      },
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Indeed, verily"
+      }
+    ]
   },
   "सुखी": {
     "token": "सुखी",
@@ -312,7 +490,24 @@
     "grammar": "दीर्घ सन्धि",
     "meaning": "Nor belong to any stage of life",
     "verse": "1-5",
-    "source": "Ashtavakra Gita 1.1-5"
+    "source": "Ashtavakra Gita 1.1-5",
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "आश्रमी",
+        "lemma": "आश्रमन्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Belonging to any life-stage (Ashrama)"
+      }
+    ]
   },
   "नाक्षगोचरः": {
     "token": "नाक्षगोचरः",
@@ -321,7 +516,24 @@
     "grammar": "दीर्घ सन्धि",
     "meaning": "Nor perceptible to sense organs",
     "verse": "1-5",
-    "source": "Ashtavakra Gita 1.1-5"
+    "source": "Ashtavakra Gita 1.1-5",
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अक्षगोचरः",
+        "lemma": "अक्षगोचर",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Perceptible to sensory organs"
+      }
+    ]
   },
   "असङ्गोऽसि": {
     "token": "असङ्गोऽसि",
@@ -330,7 +542,28 @@
     "grammar": "उत्व + पूर्वरूप सन्धि",
     "meaning": "You are unattached",
     "verse": "1-5",
-    "source": "Ashtavakra Gita 1.1-5"
+    "source": "Ashtavakra Gita 1.1-5",
+    "padas": [
+      {
+        "pada": "असङ्गः",
+        "lemma": "असङ्ग",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Completely unattached, non-clinging"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट् (वर्तमान)",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस् (अदादि)",
+        "meaning": "You are"
+      }
+    ]
   },
   "निराकारो": {
     "token": "निराकारो",
@@ -420,7 +653,29 @@
     "grammar": "सवर्णदीर्घ सन्धि",
     "meaning": "Are you the doer",
     "verse": "1-6",
-    "source": "Ashtavakra Gita 1.1-6"
+    "source": "Ashtavakra Gita 1.1-6",
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "कृ",
+        "meaning": "The doer / agent"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
   },
   "भोक्तासि": {
     "token": "भोक्तासि",
@@ -429,7 +684,29 @@
     "grammar": "सवर्णदीर्घ सन्धि",
     "meaning": "The enjoyer / experiencer",
     "verse": "1-6",
-    "source": "Ashtavakra Gita 1.1-6"
+    "source": "Ashtavakra Gita 1.1-6",
+    "padas": [
+      {
+        "pada": "भोक्ता",
+        "lemma": "भोक्तृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "भुज्",
+        "meaning": "The experiencer / enjoyer"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
   },
   "मुक्त": {
     "token": "मुक्त",
@@ -447,7 +724,25 @@
     "grammar": "दीर्घ सन्धि",
     "meaning": "Truly you are",
     "verse": "1-6",
-    "source": "Ashtavakra Gita 1.1-6"
+    "source": "Ashtavakra Gita 1.1-6",
+    "padas": [
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Truly, alone, verily"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "अस्",
+        "meaning": "You are"
+      }
+    ]
   },
   "सर्वदा": {
     "token": "सर्वदा",
@@ -474,7 +769,25 @@
     "grammar": "सवर्णदीर्घ सन्धि",
     "meaning": "Witness/Seer are you",
     "verse": "1-7",
-    "source": "Ashtavakra Gita 1.1-7"
+    "source": "Ashtavakra Gita 1.1-7",
+    "padas": [
+      {
+        "pada": "द्रष्टा",
+        "lemma": "द्रष्टृ",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "root": "दृश्",
+        "meaning": "The sole Seer/Perceiver"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "meaning": "You are"
+      }
+    ]
   },
   "सर्वस्य": {
     "token": "सर्वस्य",
@@ -492,7 +805,24 @@
     "grammar": "उत्व + पूर्वरूप सन्धि",
     "meaning": "Already virtually liberated",
     "verse": "1-7",
-    "source": "Ashtavakra Gita 1.1-7"
+    "source": "Ashtavakra Gita 1.1-7",
+    "padas": [
+      {
+        "pada": "मुक्तप्रायः",
+        "lemma": "मुक्तप्राय",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "Practically / naturally already free"
+      },
+      {
+        "pada": "असि",
+        "lemma": "अस्",
+        "type": "tinganta",
+        "meaning": "You are"
+      }
+    ]
   },
   "अयमेव": {
     "token": "अयमेव",
@@ -501,7 +831,24 @@
     "grammar": "संयोग",
     "meaning": "This indeed",
     "verse": "1-7",
-    "source": "Ashtavakra Gita 1.1-7"
+    "source": "Ashtavakra Gita 1.1-7",
+    "padas": [
+      {
+        "pada": "अयम्",
+        "lemma": "इदम्",
+        "type": "subanta",
+        "vibhakti": "प्रथमा",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "This alone"
+      },
+      {
+        "pada": "एव",
+        "lemma": "एव",
+        "type": "avyaya",
+        "meaning": "Indeed, solely"
+      }
+    ]
   },
   "हि": {
     "token": "हि",
@@ -537,7 +884,28 @@
     "grammar": "सवर्णदीर्घ सन्धि",
     "meaning": "You perceive as another / object",
     "verse": "1-7",
-    "source": "Ashtavakra Gita 1.1-7"
+    "source": "Ashtavakra Gita 1.1-7",
+    "padas": [
+      {
+        "pada": "पश्यसि",
+        "lemma": "दृश्",
+        "type": "tinganta",
+        "lakara": "लट्",
+        "purusha": "मध्यम पुरुष",
+        "vacana": "एकवचन",
+        "root": "दृश् (भ्वादि)",
+        "meaning": "You behold, you perceive"
+      },
+      {
+        "pada": "इतरम्",
+        "lemma": "इतर",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "linga": "पुंल्लिङ्ग",
+        "meaning": "As other than yourself (as an object)"
+      }
+    ]
   },
   "अहं": {
     "token": "अहं",
@@ -555,7 +923,40 @@
     "grammar": "समास + सन्धि",
     "meaning": "Bitten by the huge black serpent of 'I am the doer' egoism",
     "verse": "1-8",
-    "source": "Ashtavakra Gita 1.1-8"
+    "source": "Ashtavakra Gita 1.1-8",
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "meaning": "The doer"
+      },
+      {
+        "pada": "इति",
+        "lemma": "इति",
+        "type": "avyaya",
+        "meaning": "Thus"
+      },
+      {
+        "pada": "अहंमान",
+        "lemma": "अहंमान",
+        "type": "subanta",
+        "meaning": "Egoism, pride of agency"
+      },
+      {
+        "pada": "महाकृष्णाहि",
+        "lemma": "महाकृष्णाहि",
+        "type": "samasa",
+        "meaning": "Great black venomous serpent"
+      },
+      {
+        "pada": "दंशितः",
+        "lemma": "दंशित",
+        "type": "krdanta",
+        "root": "दंश्",
+        "meaning": "Bitten, struck by fangs"
+      }
+    ]
   },
   "नाहं": {
     "token": "नाहं",
@@ -564,7 +965,21 @@
     "grammar": "दीर्घ स्वर-सन्धि",
     "meaning": "I am not",
     "verse": "1-8",
-    "source": "Ashtavakra Gita 1.1-8"
+    "source": "Ashtavakra Gita 1.1-8",
+    "padas": [
+      {
+        "pada": "न",
+        "lemma": "न",
+        "type": "avyaya",
+        "meaning": "Not"
+      },
+      {
+        "pada": "अहम्",
+        "lemma": "अस्मद्",
+        "type": "subanta",
+        "meaning": "I"
+      }
+    ]
   },
   "कर्तेति": {
     "token": "कर्तेति",
@@ -573,7 +988,21 @@
     "grammar": "गुण स्वर-सन्धि",
     "meaning": "The doer",
     "verse": "1-8",
-    "source": "Ashtavakra Gita 1.1-8"
+    "source": "Ashtavakra Gita 1.1-8",
+    "padas": [
+      {
+        "pada": "कर्ता",
+        "lemma": "कर्तृ",
+        "type": "subanta",
+        "meaning": "Doer"
+      },
+      {
+        "pada": "इति",
+        "lemma": "इति",
+        "type": "avyaya",
+        "meaning": "Thus"
+      }
+    ]
   },
   "विश्वासामृतं": {
     "token": "विश्वासामृतं",
@@ -582,7 +1011,23 @@
     "grammar": "दीर्घ सन्धि / रूपक समास",
     "meaning": "The nectar of faith/conviction",
     "verse": "1-8",
-    "source": "Ashtavakra Gita 1.1-8"
+    "source": "Ashtavakra Gita 1.1-8",
+    "padas": [
+      {
+        "pada": "विश्वास",
+        "lemma": "विश्वास",
+        "type": "subanta",
+        "meaning": "Faith, conviction"
+      },
+      {
+        "pada": "अमृतम्",
+        "lemma": "अमृत",
+        "type": "subanta",
+        "vibhakti": "द्वितीया",
+        "vacana": "एकवचन",
+        "meaning": "The nectar of immortality"
+      }
+    ]
   },
   "पीत्वा": {
     "token": "पीत्वा",
@@ -601,5 +1046,411 @@
     "meaning": "Live and wander freely!",
     "verse": "1-8",
     "source": "Ashtavakra Gita 1.1-8"
+  },
+  "मुक्तिम्": {
+    "token": "मुक्तिम्",
+    "lemma": "मुक्ति",
+    "meaning": "Liberation, freedom from rebirth",
+    "grammar": "द्वितीया एकवचन स्त्रीलिङ्ग",
+    "root": "मुच्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "इच्छसि": {
+    "token": "इच्छसि",
+    "lemma": "इष्",
+    "meaning": "You desire, you seek",
+    "grammar": "लट् (वर्तमान)",
+    "root": "इष् (तुदादि)",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "चेत्": {
+    "token": "चेत्",
+    "lemma": "चेत्",
+    "meaning": "If, in case that",
+    "grammar": "avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "तात": {
+    "token": "तात",
+    "lemma": "तात",
+    "meaning": "O beloved one, dear disciple",
+    "grammar": "सम्बोधन एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "विषवत्": {
+    "token": "विषवत्",
+    "lemma": "विष",
+    "meaning": "Like poison, as deadly venom",
+    "grammar": "taddhita/avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "त्यज": {
+    "token": "त्यज",
+    "lemma": "त्यज्",
+    "meaning": "Abandon, cast away, renounce!",
+    "grammar": "लोट् (आज्ञार्थ)",
+    "root": "त्यज् (भ्वादि)",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "क्षमा": {
+    "token": "क्षमा",
+    "lemma": "क्षमा",
+    "meaning": "Forgiveness, patience",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "आर्जव": {
+    "token": "आर्जव",
+    "lemma": "आर्जव",
+    "meaning": "Sincerity, straightforwardness",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "दया": {
+    "token": "दया",
+    "lemma": "दया",
+    "meaning": "Compassion, mercy",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "तोष": {
+    "token": "तोष",
+    "lemma": "तोष",
+    "meaning": "Contentment, joy",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "सत्यम्": {
+    "token": "सत्यम्",
+    "lemma": "सत्य",
+    "meaning": "Truth, genuine reality",
+    "grammar": "द्वितीया एकवचन नपुंसकलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "पीयूषवत्": {
+    "token": "पीयूषवत्",
+    "lemma": "पीयूष",
+    "meaning": "Like immortal nectar, as ambrosia",
+    "grammar": "taddhita/avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "जलम्": {
+    "token": "जलम्",
+    "lemma": "जल",
+    "meaning": "Water element",
+    "grammar": "प्रथमा एकवचन नपुंसकलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अग्निः": {
+    "token": "अग्निः",
+    "lemma": "अग्नि",
+    "meaning": "Fire element",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "वायुः": {
+    "token": "वायुः",
+    "lemma": "वायु",
+    "meaning": "Air element",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "द्यौः": {
+    "token": "द्यौः",
+    "lemma": "दिव्",
+    "meaning": "Space/Ether/Sky",
+    "grammar": "प्रथमा एकवचन स्त्रीलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "एषाम्": {
+    "token": "एषाम्",
+    "lemma": "एतद्",
+    "meaning": "Of all these five elements",
+    "grammar": "षष्ठी बहुवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "साक्षिणम्": {
+    "token": "साक्षिणम्",
+    "lemma": "साक्षिन्",
+    "meaning": "The eternal Witness",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "root": "साक्षिन्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "आत्मानम्": {
+    "token": "आत्मानम्",
+    "lemma": "आत्मन्",
+    "meaning": "The true Self (Atman)",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "root": "आत्मन्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "चिद्रूपम्": {
+    "token": "चिद्रूपम्",
+    "lemma": "चिद्रूप",
+    "meaning": "Embodiment of Pure Consciousness",
+    "grammar": "द्वितीया एकवचन नपुंसकलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "देहम्": {
+    "token": "देहम्",
+    "lemma": "देह",
+    "meaning": "The physical body",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अधुना": {
+    "token": "अधुना",
+    "lemma": "अधुना",
+    "meaning": "Right now, this instant",
+    "grammar": "avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "एव": {
+    "token": "एव",
+    "lemma": "एव",
+    "meaning": "Indeed, verily",
+    "grammar": "avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "शान्तः": {
+    "token": "शान्तः",
+    "lemma": "शान्त",
+    "meaning": "Tranquil, peaceful",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "root": "शम्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "बन्धमुक्तः": {
+    "token": "बन्धमुक्तः",
+    "lemma": "बन्धमुक्त",
+    "meaning": "Freed from all bondage",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "त्वम्": {
+    "token": "त्वम्",
+    "lemma": "युष्मद्",
+    "meaning": "You",
+    "grammar": "प्रथमा एकवचन ",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "विप्रादिकः": {
+    "token": "विप्रादिकः",
+    "lemma": "विप्रादिक",
+    "meaning": "Brahmana and the other castes",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "वर्णः": {
+    "token": "वर्णः",
+    "lemma": "वर्ण",
+    "meaning": "Social class/order",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "आश्रमी": {
+    "token": "आश्रमी",
+    "lemma": "आश्रमन्",
+    "meaning": "Belonging to any life-stage (Ashrama)",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अक्षगोचरः": {
+    "token": "अक्षगोचरः",
+    "lemma": "अक्षगोचर",
+    "meaning": "Perceptible to sensory organs",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "असङ्गः": {
+    "token": "असङ्गः",
+    "lemma": "असङ्ग",
+    "meaning": "Completely unattached, non-clinging",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "असि": {
+    "token": "असि",
+    "lemma": "अस्",
+    "meaning": "You are",
+    "grammar": "लट् (वर्तमान)",
+    "root": "अस् (अदादि)",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "निराकारः": {
+    "token": "निराकारः",
+    "lemma": "निराकार",
+    "meaning": "Formless, without material shape",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "सुखम्": {
+    "token": "सुखम्",
+    "lemma": "सुख",
+    "meaning": "Pleasure, happiness",
+    "grammar": "प्रथमा एकवचन नपुंसकलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "दुःखम्": {
+    "token": "दुःखम्",
+    "lemma": "दुःख",
+    "meaning": "Pain, misery",
+    "grammar": "प्रथमा एकवचन नपुंसकलिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "कर्ता": {
+    "token": "कर्ता",
+    "lemma": "कर्तृ",
+    "meaning": "The doer / agent",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "root": "कृ",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "भोक्ता": {
+    "token": "भोक्ता",
+    "lemma": "भोक्तृ",
+    "meaning": "The experiencer / enjoyer",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "root": "भुज्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "मुक्तः": {
+    "token": "मुक्तः",
+    "lemma": "मुक्त",
+    "meaning": "Liberated, ever-free",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "एकः": {
+    "token": "एकः",
+    "lemma": "एक",
+    "meaning": "The One, solitary, undivided",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "द्रष्टा": {
+    "token": "द्रष्टा",
+    "lemma": "द्रष्टृ",
+    "meaning": "The sole Seer/Perceiver",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "root": "दृश्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "मुक्तप्रायः": {
+    "token": "मुक्तप्रायः",
+    "lemma": "मुक्तप्राय",
+    "meaning": "Practically / naturally already free",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अयम्": {
+    "token": "अयम्",
+    "lemma": "इदम्",
+    "meaning": "This alone",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "बन्धः": {
+    "token": "बन्धः",
+    "lemma": "बन्ध",
+    "meaning": "Bondage, fetter",
+    "grammar": "प्रथमा एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "द्रष्टारम्": {
+    "token": "द्रष्टारम्",
+    "lemma": "द्रष्टृ",
+    "meaning": "The Seer (Witness)",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "root": "दृश्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "पश्यसि": {
+    "token": "पश्यसि",
+    "lemma": "दृश्",
+    "meaning": "You behold, you perceive",
+    "grammar": "लट्",
+    "root": "दृश् (भ्वादि)",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "इतरम्": {
+    "token": "इतरम्",
+    "lemma": "इतर",
+    "meaning": "As other than yourself (as an object)",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अहम्": {
+    "token": "अहम्",
+    "lemma": "अस्मद्",
+    "meaning": "I (the ego)",
+    "grammar": "प्रथमा एकवचन ",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "इति": {
+    "token": "इति",
+    "lemma": "इति",
+    "meaning": "Thus",
+    "grammar": "avyaya",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अहंमान": {
+    "token": "अहंमान",
+    "lemma": "अहंमान",
+    "meaning": "Egoism, pride of agency",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "महाकृष्णाहि": {
+    "token": "महाकृष्णाहि",
+    "lemma": "महाकृष्णाहि",
+    "meaning": "Great black venomous serpent",
+    "grammar": "samasa",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "दंशितः": {
+    "token": "दंशितः",
+    "lemma": "दंशित",
+    "meaning": "Bitten, struck by fangs",
+    "grammar": "krdanta",
+    "root": "दंश्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "विश्वास": {
+    "token": "विश्वास",
+    "lemma": "विश्वास",
+    "meaning": "Faith, conviction",
+    "grammar": "subanta",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अमृतम्": {
+    "token": "अमृतम्",
+    "lemma": "अमृत",
+    "meaning": "The nectar of immortality",
+    "grammar": "द्वितीया एकवचन ",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "अग्निम्": {
+    "token": "अग्निम्",
+    "lemma": "अग्नि",
+    "meaning": "Agni, the primordial flame",
+    "grammar": "द्वितीया एकवचन पुंल्लिङ्ग",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "ईळे": {
+    "token": "ईळे",
+    "lemma": "ईड्",
+    "meaning": "I praise, I celebrate with song (Rigveda 1.1.1)",
+    "grammar": "लट्",
+    "root": "ईड् / ईळ्",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
+  },
+  "पुरोहितम्": {
+    "token": "पुरोहितम्",
+    "lemma": "पुरोहित",
+    "meaning": "The domestic priest placed in the forefront",
+    "grammar": "द्वितीया एकवचन ",
+    "source": "Sanskrit Heritage & CDSL Lexicon"
   }
 }

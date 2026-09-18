@@ -113,9 +113,13 @@ export function resolveWordAnnotation(rawToken: string): WordAnnotation {
 
   // 1. Direct hit in Persistent Cache
   if (cachedAnnotations && cachedAnnotations[token]) {
+    const annot = { ...cachedAnnotations[token] };
+    if (!annot.padas && heritageMorphology && heritageMorphology[token]?.padas) {
+      annot.padas = heritageMorphology[token].padas;
+    }
     return {
-      ...cachedAnnotations[token],
-      iast: cachedAnnotations[token].iast || devanagariToIast(token)
+      ...annot,
+      iast: annot.iast || devanagariToIast(token)
     };
   }
 
@@ -135,6 +139,7 @@ export function resolveWordAnnotation(rawToken: string): WordAnnotation {
       grammar: joinedGrammar || 'पद (हेरिटेज कोष)',
       sandhiVigraha: h.split?.length > 1 ? h.split.join(' + ') : undefined,
       sandhiRules: h.sandhiRules,
+      padas: h.padas,
       source: 'Sanskrit Heritage Grammar'
     };
   }
@@ -229,19 +234,26 @@ export function resolveWordAnnotation(rawToken: string): WordAnnotation {
 
   // 8. Compound part lookup (if sandhi has split the token into components)
   if (sandhi.isCompound && sandhi.split.length > 1) {
-    const partMeanings = sandhi.split.map(part => {
+    const subPadas = sandhi.split.map(part => {
       const subAnnot = resolveWordAnnotation(part);
-      return `${part} (${subAnnot.meaning.slice(0, 50)})`;
+      return {
+        pada: part,
+        lemma: subAnnot.lemma || part,
+        root: subAnnot.root,
+        grammar: subAnnot.grammar,
+        meaning: subAnnot.meaning
+      };
     });
 
     return {
       token: token,
       lemma: sandhi.split[0],
       iast: devanagariToIast(token),
-      meaning: partMeanings.join(' + '),
+      meaning: subPadas.map(p => `${p.pada} (${p.meaning.slice(0, 50)})`).join(' + '),
       grammar: `सामासिक पद / सन्धि-युक्त (${sandhi.rules.join(', ')})`,
       sandhiVigraha: sandhi.vigrahaFormula,
       sandhiRules: sandhi.rules,
+      padas: subPadas,
       source: 'सन्धि व समास विच्छेद'
     };
   }
